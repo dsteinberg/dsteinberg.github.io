@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Dan Steinberg - Dan Steinberg</title><link href="/" rel="alternate"></link><link href="/feeds/dan-steinberg.atom.xml" rel="self"></link><id>/</id><updated>2014-08-24T00:00:00+10:00</updated><entry><title>Creating this site</title><link href="/creating-this-site.html" rel="alternate"></link><published>2014-08-24T00:00:00+10:00</published><updated>2014-08-24T00:00:00+10:00</updated><author><name>Dan Steinberg</name></author><id>tag:None,2014-08-24:/creating-this-site.html</id><content type="html">&lt;p&gt;This is a test page for now, but it will maybe document this websites&amp;nbsp;creation:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Pelican&lt;/li&gt;
+&lt;li&gt;Pelican-Bootstrap3&lt;/li&gt;
+&lt;li&gt;Bootswatch&amp;nbsp;Cyborg&lt;/li&gt;
+&lt;li&gt;Pelican-Bibtex&lt;/li&gt;
+&lt;/ul&gt;</content><category term="misc"></category></entry></feed>

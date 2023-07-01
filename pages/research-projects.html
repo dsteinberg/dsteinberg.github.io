@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en"
+>
+<head>
+    <title>Research +&nbsp;Projects - Dan Steinberg</title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link href="/images/favicon.ico" rel="icon">
+
+<link rel="canonical" href="/pages/research-projects.html">
+
+        <meta name="author" content="Dan Steinberg" />
+        <meta name="description" content="This page presents a brief summary of some research and projects I have done to date, starting with newer work at the top. Causal Inference - Machine learning as a tool for evidence-based policy Graphical representation of a relationships assumed in a simple causal model. Machine learning (ML) can be a …" />
+
+
+
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="/theme/css/bootstrap.cyborg.min.css" type="text/css"/>
+    <link href="/theme/css/font-awesome.css" rel="stylesheet">
+
+    <link href="/theme/css/pygments/native.css" rel="stylesheet">
+        <link href="/theme/css/typogrify.css" rel="stylesheet">
+    <link rel="stylesheet" href="/theme/css/style.css" type="text/css"/>
+    <script src="/theme/js/jquery.min.js"></script>
+
+    
+    <!-- Google Analytics (best in HEAD) -->
+
+    <!-- Google Fonts -->
+    <link 
+        href="https://fonts.googleapis.com/css?family=Lato&display=swap"
+        rel="stylesheet"> 
+</head>
+<body>
+
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="/" class="navbar-brand">
+Dan Steinberg            </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                         <li><a href="/index.html">
+                             About
+                          </a></li>
+                         <li><a href="/pages/publications.html">
+                             Publications
+                          </a></li>
+                         <li class="active"><a href="/pages/research-projects.html">
+                             Research +&nbsp;Projects
+                          </a></li>
+                        <li >
+                            <a href="/category/misc.html">Misc</a>
+                        </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/archives.html"><i class="fa fa-th-list"></i><span class="icon-label">Archives</span></a></li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</div> <!-- /.navbar -->
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-9 col-md-10">
+
+    <section id="content" class="body">
+        <h1 class="entry-title">Research +&nbsp;Projects</h1>
+        
+        <div class="entry-content">
+            <p>This page presents a brief summary of some research and projects I have
+done to date, starting with newer work at the&nbsp;top.</p>
+<h3><strong>Causal Inference</strong> - Machine learning as a tool for evidence-based&nbsp;policy</h3>
+<div class="col-sm-6 col-md-6" style="margin-left: -15px;">
+<div class="panel panel-default">
+    <div class="panel-body">
+        <img src="/images/causal-dag.png" alt="Simple causal diagram">
+    </div>
+    <div class="panel-footer">
+        Graphical representation of a relationships assumed in a simple 
+        causal model.
+    </div>
+</div>
+</div>
+
+<p>Machine learning (<span class="caps">ML</span>) can be a useful tool for observational causal inference
+studies, one of the cornerstones of evidence-based policy. <span class="caps">ML</span> can help us
+capture complex relationships in the data, thereby helping mitigate bias from
+model mis-specification. Also, use of regularisation in machine learning can
+lead to causal estimates with less error compared to unbiased methods when we
+have many related confounding factors in our data. I helped to write a <a href="https://medium.com/gradient-institute/machine-learning-as-a-tool-for-evidence-based-policy-3242f4a545b8">blog
+post</a>
+on this subject, and at <a href="https://gradientinstitute.org/case-studies/act-education-directorate/">Gradient
+Institute</a>
+we have used machine learning for observational studies such as <a href="https://doi.org/10.1038/s41598-022-05780-0">linking youth
+well-being to academic success</a>.
+Reporting non-linear causal effects requires a new methodology, software for
+which we developed and can be found
+<a href="https://github.com/gradientinstitute/causal-inspection">here</a>.</p>
+<div style="clear: both;"></div>
+
+<h3><strong>Algorithmic Fairness</strong> - Fair Regression&nbsp;Algorithms</h3>
+<div class="col-sm-5 col-md-5" style="margin-left: -15px;">
+<div class="panel panel-default">
+    <div class="panel-body">
+        <img src="/images/variance.png" alt="Unfairness toy example">
+    </div>
+    <div class="panel-footer">
+        A simulated dataset depicting an unfair prediction under the
+        &#8220;separation&#8221; and &#8220;sufficiency&#8221; fairness criteria.
+    </div>
+</div>
+</div>
+
+<p>Algorithmic fairness involves expressing notions such as equity, equality, or
+reasonable treatment, as quantifiable measures that a machine learning
+algorithm can optimise. Mathematising these concepts, so they can be inferred
+from data is challenging, as is deciding on the balance between fairness and
+other objectives such as accuracy in a particular application. My research in
+this area along with others at the <a href="https://gradientinstitute.org">Gradient
+Institute</a> has thus far focused on regression
+algorithms. Measuring the fairness of a regression algorithm is difficult
+compared to the classification case for many popular fairness criteria.
+Similarly, adjusting the predictions of a regressor is more complex than doing
+so for a classifier, and so our research has been targeting these areas. Here
+you can read more about <a href="https://arxiv.org/abs/2001.06089">measurement</a>, and
+<a href="https://arxiv.org/abs/2002.06200">adjusting</a> regression&nbsp;algorithms.</p>
+<div style="clear: both;"></div>
+
+<h3><strong>Landshark</strong> - Large-scale Spatial Inference with&nbsp;Tensorflow</h3>
+<div class="col-sm-8 col-md-8" style="margin-left: -15px;">
+<div class="panel panel-default">
+    <div class="panel-body">
+        <img src="/images/landshark.jpg" alt="Predictive entropy">
+    </div>
+    <div class="panel-footer">
+        The predictive entropy (uncertainty) of the concentration of an element
+        in soils in Western Australia.
+    </div>
+</div>
+</div>
+
+<p>Landshark is a set of python command line tools that for supervised learning
+problems on large spatial raster datasets. It solves problems in which the user
+has a set of target point measurements, such as geochemistry, soil
+classification, or depth to basement, and wants to relate those to a number of
+raster covariates, like satellite imagery or geophysics, to predict the targets
+on the raster&nbsp;grid.</p>
+<p>Landshark fills a particular niche: where we want to efficiently learn models
+with very large numbers of training points and/or very large covariate images
+using TensorFlow. Landshark is particularly useful for the case when the
+training data itself will not fit in memory, and must be streamed to a
+minibatch stochastic gradient descent algorithm for model&nbsp;learning.</p>
+<p>Please see the <a href="https://github.com/data61/landshark">Landshark project page</a>
+for more&nbsp;information.</p>
+<div style="clear: both;"></div>
+
+<h3><strong>Aboleth</strong> - A TensorFlow Framework for Bayesian Deep&nbsp;Learning</h3>
+<div class="col-sm-7 col-md-7" style="margin-left: -15px;">
+<div class="panel panel-default">
+    <div class="panel-body">
+        <img src="/images/bayesnn.png" alt="A Bayesian Neural Net">
+    </div>
+    <div class="panel-footer">
+        Depiction of a Bayesian Neural Net that is easily constructed using
+        Aboleth.
+    </div>
+</div>
+</div>
+
+<p>I am one of the primary creators of Aboleth, a bare-bones TensorFlow framework
+for Bayesian deep learning and Gaussian process&nbsp;approximation.</p>
+<p>The purpose of Aboleth is to provide a set of high performance and light weight
+components for building Bayesian neural nets and approximate (deep) Gaussian
+process computational graphs. We aim for minimal abstraction over pure
+TensorFlow, so you can still assign parts of the computational graph to
+different hardware, use your own data feeds/queues, and manage your own
+sessions&nbsp;etc.</p>
+<p>The project page is on <a href="https://github.com/data61/aboleth">github</a>.</p>
+<div style="clear: both;"></div>
+
+<h3><strong>Revrand</strong> - Scalable Bayesian Generalised Linear&nbsp;Models</h3>
+<div>
+    <div class="col-sm-5 col-md-4" style="margin-left: -15px;">
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <img src="https://github.com/NICTA/revrand/raw/master/docs/glm_sgd_demo.png"
+                 alt="Regression and GLM Demo" />
+        </div>
+        <div class="panel-footer">
+            revrand uses recent advances in large scale kernel methods to
+            approximate kernel machines, such as Gaussian processes, with
+            linear models. Using this technology we can harness the inferential
+            power of kernel machines while exploiting the scalability of linear
+            models.
+        </div>
+    </div>
+    </div>
+    <div class="col-sm-5 col-md-4" style="margin-left: -15px;">
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <img src="https://github.com/NICTA/revrand/raw/master/docs/glm_demo.png"
+             alt="GLM Demo" />
+        </div>
+        <div class="panel-footer">
+            revrand also uses recent advances in variational inference to
+            accurately approximate fully Bayesian posteriors for non-conjugate 
+            models, such as generalised linear models. In this way it can
+            provide comprehensive measures of uncertainty in its predictions.
+        </div>
+    </div>
+    </div>
+</div>
+
+<p>I am the project creator and primary contributor to <em>revrand</em>, a software
+library implements Bayesian linear models (Bayesian linear regression) and
+generalised linear models. A few features of this library&nbsp;are:</p>
+<ul>
+<li>A basis functions/feature composition framework for combining basis functions
+  like radial basis functions, sigmoidal basis functions, polynomial basis
+  functions&nbsp;etc.</li>
+<li>Basis functions that can be used to approximate Gaussian processes with shift
+  invariant covariance functions (e.g. square exponential) when used with
+  linear&nbsp;models.</li>
+<li>Non-Gaussian likelihoods with Bayesian generalised linear models using a
+  modified version of the nonparametric variational inference algorithm with
+  large scale learning using stochastic gradients (<span class="caps">ADADELTA</span>, Adam and&nbsp;others).</li>
+</ul>
+<p>The project page is on <a href="https://github.com/NICTA/revrand">github</a>.</p>
+<div style="clear: both;"></div>
+
+<h3>Extended and Unscented Kitchen&nbsp;Sinks</h3>
+<div class="col-sm-8 col-md-8" style="margin-left: -15px;">
+<div class="panel panel-default">
+    <div class="panel-body">
+        <img src="/images/EKS-seismic.png" alt="EKS seismic 
+        inversion">
+    </div>
+    <div class="panel-footer">
+        Example results of the extended kitchen sinks (<span class="caps">EKS</span>) algorithm on an
+        interpreted seismic inversion problem, where we wish to infer the below
+        ground structure of the Earth from sound wave reflection times. The
+        inferred rock-type layer boundaries (left) and seismic velocities
+        (right) are shown in blue, indicating the predictive means and standard
+        deviation envelopes. Draws from the <span class="caps">MCMC</span> inversion are overlaid in
+        dotted black.
+    </div>
+</div>
+</div>
+
+<p>In this work we extended our Bayesian nonparametric algorithms for inverse
+problems, the unscented and extended Gaussian processes, to work with multiple
+outputs and over large datasets. The new algorithms are called unscented and
+extended kitchen sinks (<span class="caps">EKS</span> and <span class="caps">UKS</span>) since they use the random kitchen sink (or
+basis function) approximation for scaling kernel machines. This approximation
+allows us to straightforwardly enable the <span class="caps">EKS</span> and <span class="caps">UKS</span> to work in multiple
+output scenarios as well, enabling these algorithms to be useful for a wide
+variety of complex nonlinear inversion problems, such as geophysical&nbsp;inversions.</p>
+<div style="clear: both;"></div>
+
+<h3>The impact of computerisation and automation on future&nbsp;employment</h3>
+<div class="col-sm-6 col-md-6" style="margin-left: -15px;">
+<div class="panel panel-default">
+    <div class="panel-body">
+        <img
+        src="/images/job-automation.jpg"
+        alt="LGA probability of job loss.">
+    </div>
+    <div class="panel-footer">
+        Weighted probability of job loss through computerisation and automation
+        in local government areas of Australia.
+    </div>
+</div>
+</div>
+
+<p>This work is a qualitative study into the susceptibility of jobs in Australia
+to computerisation and automation over the next 10 to 15 years. The methodology
+and initial data used is based on the much-cited paper by Frey and Osborne,
+which studied this same problem for the United States (<span class="caps">US</span>) and, more recently,
+for the United Kingdom (<span class="caps">UK</span>). The key to this work is trying to understand and
+quantify the impact of emerging technology on jobs and employment in areas such
+as artificial intelligence, robotics and machine&nbsp;learning.</p>
+<p>The results show that 40 per cent of jobs in Australia have a high probability
+of being susceptible to computerisation and automation in the next 10 to 15
+years. Jobs in administration and some services are particularly susceptible,
+as are regions that have historically associated with the mining industry. Jobs
+in the professions, in technical and creative industries, and in personal
+service areas (health for example) are least susceptible to automation. The
+report can be found <a href="http://adminpanel.ceda.com.au/FOLDERS/Service/Files/Documents/26792~Futureworkforce_June2015.pdf">here</a>.</p>
+<div style="clear: both;"></div>
+
+<h3>Nonparametric Bayesian Inverse&nbsp;Problems</h3>
+<div class="col-sm-6 col-md-6" style="margin-left: -15px;">
+<div class="panel panel-default">
+    <div class="panel-body">
+        <img src="/images/ugp-sign.png" alt="UGP signum test">
+    </div>
+    <div class="panel-footer">
+        Example of learning the unscented Gaussian process (<span class="caps">UGP</span>) with a
+        non-differentiable nonlinear function (forward model) in the likelihood
+        - a polynomial with one term in a signum function. Here only the black
+        dots are seen by the algorithm, and the nonlinear function transforming
+        the blue line to the green is known, but not its inverse. The aim is to
+        estimate the latent function (blue line) from the black dots, without
+        knowing the inverse function. In this figure we show the predictive
+        distributions of the latent function (red dashed line and standard
+        deviation bounds) and of the observations (green line and standard
+        deviation bounds).
+    </div>
+</div>
+</div>
+
+<p>Nonlinear inversion problems, where we wish to infer the latent inputs to a
+system given observations of its output and the system’s forward-model, have a
+long history in the natural sciences, dynamical modeling and estimation. An
+example is the robot-arm inverse kinematics problem, where we wish to infer how
+to drive the robot’s joints (i.e. joint torques) in order to place the
+end-effector in a particular position, given we can measure its position and
+know the forward kinematics of the arm. Most of the existing algorithms either
+estimate the system inputs at a particular point in time like the
+Levenberg-Marquardt algorithm, or in a recursive manner such as the extended
+and unscented Kalman filters (<span class="caps">EKF</span>, <span class="caps">UKF</span>). In many inversion problems we have a
+continuous process; a smooth trajectory of a robot arm for example.
+Non-parametric regression techniques like Gaussian processes seem applicable,
+and have been used in linear inversion&nbsp;problems. </p>
+<p>In this work we present two new methods for inference in Gaussian process (<span class="caps">GP</span>)
+models with general nonlinear likelihoods. Inference is based on a variational
+framework where a Gaussian posterior is assumed and the likelihood is
+linearized about the variational posterior mean using either a Taylor series
+expansion or statistical linearization. We show that the parameter updates
+obtained by these algorithms are equivalent to the state update equations in
+the iterative extended and unscented Kalman filters respectively, hence we
+refer to our algorithms as extended and unscented GPs. The unscented <span class="caps">GP</span> treats
+the likelihood as a &#8216;black-box&#8217; by not requiring its derivative for inference,
+so it also applies to non-differentiable likelihood models. We evaluate the
+performance of our algorithms on a number of synthetic inversion problems and a
+binary classification dataset. See our <a href="http://papers.nips.cc/paper/5455-extended-and-unscented-gaussian-processes"><span class="caps">NIPS</span> <em>spotlight</em>
+paper</a>
+for more&nbsp;details.</p>
+<div style="clear: both"></div>
+
+<h3>Unsupervised Scene&nbsp;&#8220;Understanding&#8221;</h3>
+<div>
+    <div class="col-sm-4 col-md-3" style="margin-left: -15px;">
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <img src="/images/MSRC_im_ex.jpg" alt="MSRC clusters" />
+        </div>
+        <div class="panel-footer">
+            Sample images belonging to image clusters found by an algorithm
+            that can use both whole-image features and distributions of objects
+            to describe images. The image clusters are shown row-wise.
+        </div>
+    </div>
+    </div>
+    <div class="col-sm-4 col-md-3" style="margin-left: -15px; margin-right: 0px;">
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <img src="/images/MSRC_seg_ex.jpg" alt="MSRC segments" />
+        </div>
+        <div class="panel-footer">
+            The corresponding learned segment clusters to the images in the
+            previous figure. The composition and proportions of these segment
+            clusters (coloured regions) are fairly consistent within an image
+            cluster. 
+        </div>
+    </div>
+    </div>
+</div>
+
+<p>For very large scientific datasets with many image classes and objects,
+producing the ground-truth data for supervised (trained) algorithms can
+represent a substantial, and potentially expensive, human effort. In these
+situations there is scope for the use of unsupervised approaches, such as
+clustering, which can model collections of images and automatically summarise
+their content without human&nbsp;training. </p>
+<p>To explore how modelling context effects clustering results, I derived several
+new algorithms that simultaneously cluster images and segments (super-pixels)
+within images. These algorithms also model collections of photos such as photo
+albums. Images are defined by whole-scene descriptors <em>and</em> the distribution of
+&#8220;objects&#8221; (segment clusters) within them. The images and segments are clustered
+using this joint representation, which is also more interpretable by people.
+The intuition behind this approach is that by knowing something about the type
+of scene (image cluster), object detection (segment clustering) can be
+improved. That is, we are likely to find trees in a forest. Additionally, by
+knowing about the distribution and co-occurrence of objects in an image, we
+have a better idea of the type of scene (cows and grass most likely make a
+rural&nbsp;scene). </p>
+<p>These algorithms for unsupervised scene understanding outperform other
+unsupervised algorithms for segment and scene clustering. This is because of
+how they model context. These algorithms were even found to be competitive with
+state of the art supervised and semi-supervised approaches to scene
+understanding, as well as being scalable to larger datasets. See
+my <a href="/docs/Steinberg_ICCV2013_MCM.pdf"><span class="caps">ICCV</span> paper</a>,
+<a href="/docs/CVIU_scene.pdf"><span class="caps">CVIU</span> article</a> and my <a href="/docs/Thesis.pdf">thesis (ch. 5 <span class="amp">&amp;</span>
+6)</a> for more&nbsp;information.</p>
+<div style="clear: both"></div>
+
+<h3>Clustering Images Over Many&nbsp;Datasets</h3>
+<p>Large image collections are frequently partitioned into distinct but related
+groups, such as photo albums from distinct environments that contain similar
+scenes. For example, a hiking holiday album may contain many images of forests
+and maybe a few villages. Whereas a conference trip album may have many urban
+scenes and images of people, with perhaps a few images of park-land. These
+groups, or albums, may be thought of as providing context for the images they&nbsp;contain.</p>
+<p>I have formulated and applied a latent Dirichlet allocation-like algorithm to
+this problem. It shares image clusters between groups or albums, and keeps the
+proportion of clusters (mixture-weights) specific to each group, thereby
+modelling the context of the group. By doing this, the algorithm is actually
+better at finding clusters, and is often faster when dealing with large
+datasets, than regular mixture model based approaches. See my 
+<a href="/docs/Thesis.pdf">thesis (ch.4)</a> for more&nbsp;information.</p>
+<div class="panel panel-default">
+    <div class="panel-body">
+        <img src="/images/halbums_gmc_sub.jpg" alt="Album clusters">
+    </div>
+    <div class="panel-footer">
+        Here 10,300 images from 12 holiday photo albums are clustered. Shown
+        are the most and least &#8220;likely&#8221; images from seven clusters (out of 23).
+        Also shown are the most frequent five tags from Flickr associated with
+        the clusters. The algorithms that could model these photo albums found
+        more self-consistent clusters than the algorithms that count not, such
+        as regular mixture models. This took less than a minute to run. Again,
+        these are entirely unsupervised algorithms
+    </div>
+</div>
+
+<h3>Clustering Images of the&nbsp;Seafloor</h3>
+<p>I have applied a Bayesian non-parametric algorithm, the variational Dirichlet
+process (with Gaussian clusters), to clustering large quantities of seafloor
+imagery (obtained from an autonomous underwater vehicle or <span class="caps">AUV</span>) in an
+unsupervised manner. The algorithm has the attractive property that it does not
+require knowledge of the number of clusters to be specified, which enables
+truly autonomous sensor data abstraction. The underlying image representation
+uses descriptors for colour, texture and 3D structure that are obtained from
+stereo cameras. This approach consistently produces easily recognisable
+clusters that approximately correspond to different habitat types.  These
+clusters are useful in observing spatial patterns, focusing expert analysis on
+subsets of seafloor imagery, aiding mission planning, and potentially informing
+real time adaptive sampling. See my
+<a href="http://www.isrr-2011.org/ISRR-2011//Program_files/Papers/Williams-ISRR-2011.pdf"><span class="caps">ISRR</span> paper</a>
+for more&nbsp;details.</p>
+<div class="row">
+    <div class="col-sm-4">
+        <div class="panel panel-default">
+        <div class="panel-body">
+            <img src="/images/scott25_img.jpg" alt="Cluster example">
+        </div>
+        <div class="panel-footer">
+            An example of images from an <span class="caps">AUV</span> survey that have been clustered.
+            This survey has 10,000 images within it. Some sample images
+            belonging to each of the 6 clusters found by the algorithm are
+            shown row-wise. The algorithm used only took a few seconds to
+            obtain these results, and needed no human generated training data.
+            That is, the algorithm found these image clusters with no human
+            input.<br>
+        </div>
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="panel panel-default">
+        <div class="panel-body">
+            <img src="/images/scott25_mos.jpg" alt="Survey">
+        </div>
+        <div class="panel-footer">
+            Top-down mosaic of the survey.
+        </div>
+        </div>
+    </div>
+    <div class="col-sm-4"> 
+        <div class="panel panel-default">
+        <div class="panel-body">
+            <img src="/images/scott25_xy.png" alt="Survey labels">
+        </div>
+        <div class="panel-footer">
+            Top-down view image locations coloured by image cluster labels.
+        </div>
+        </div>
+    </div>
+</div>
+        </div>
+    </section>
+        </div>
+        <div class="col-sm-3 col-md-2 side-content">
+            <div id="aboutme" class="entry-content">
+<p>
+<img width="100%" class="img-rounded floatcenter" src="../images/profile_photo.jpg"/>
+</p>
+<p>
+    <span style="unicode-bidi:bidi-override;direction:rtl;"></span><a href="../docs/dsteinberg.pdf">Curriculum Vitae</a>
+</p>
+            </div>
+            <div id="sidebar"> 
+                <hr style="margin-bottom: 0px;">
+
+<aside>
+    <section>
+        <ul class="list-group list-group-flush">
+                <li class="list-group-item"><a href="https://github.com/dsteinberg"><i class="fab fa-github fa-lg"></i> Github</a></li>
+                <li class="list-group-item"><a href="http://lnkd.in/mptmxq"><i class="fab fa-linkedin fa-lg"></i> Linkedin</a></li>
+
+
+
+    <li class="list-group-item">
+        <a href="http://scholar.google.com.au/citations?user=w0oqSe8AAAAJ&hl=en" target="_blank">
+            <i class="fas fa-user-graduate fa-lg"></i> Scholar
+        </a>
+    </li>
+
+        </ul>
+    </section>
+</aside>            </div>
+        </div>
+    </div>
+</div>
+<footer>
+   <div class="container">
+      <hr>
+      <div class="row">
+         <div class="col-xs-10">&copy; 2023 Dan Steinberg
+            &middot; Powered by <a href="https://github.com/DandyDev/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
+            <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
+            <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>         </div>
+         <div class="col-xs-2"><p class="pull-right"><a href="#"><i class="fa fa-arrow-up"></i></a></p></div>
+      </div>
+   </div>
+</footer>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="/theme/js/bootstrap.min.js"></script>
+
+<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+<script src="/theme/js/respond.min.js"></script>
+
+
+</body>
+</html>
