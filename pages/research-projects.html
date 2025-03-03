@@ -14,7 +14,7 @@
 <link rel="canonical" href="/pages/research-projects.html">
 
         <meta name="author" content="Dan Steinberg" />
-        <meta name="description" content="This page presents a brief summary of some research and projects I have done to date, starting with newer work at the top. Causal Inference - Machine learning as a tool for evidence-based policy Graphical representation of a relationships assumed in a simple causal model. Machine learning (ML) can be a …" />
+        <meta name="description" content="This page presents a brief summary of some research and projects I have done to date, starting with newer work at the top. Active Generation - for protein engineering Active generation as implemented by variational search distributions (VSD). In traditional protein engineering, researchers often rely on random mutagenesis or directed evolution …" />
 
 
 
@@ -82,6 +82,34 @@ Dan Steinberg            </a>
         <div class="entry-content">
             <p>This page presents a brief summary of some research and projects I have
 done to date, starting with newer work at the&nbsp;top.</p>
+<h3><strong>Active Generation</strong> - for protein&nbsp;engineering</h3>
+<div class="col-sm-6 col-md-6" style="margin-left: -15px;">
+<div class="panel panel-default">
+    <div class="panel-body">
+        <img src="/images/active_generation.png" alt="Active generation">
+    </div>
+    <div class="panel-footer">
+        Active generation as implemented by variational search distributions (<span class="caps">VSD</span>).
+    </div>
+</div>
+</div>
+
+<p>In traditional protein engineering, researchers often rely on random
+mutagenesis or directed evolution to optimise the function of a protein. For
+example, designing enzymes to break down plastics. This can be
+resource-intensive and time-consuming due to the immense combinatorial
+possibilities of amino acid sequences. Active generation addresses this
+challenge by combining generative models of protein sequences with Bayesian
+optimisation techniques that identify which sequences, when tested, would
+provide the most valuable information to refine the predictive and generative
+models, and thereby more efficiently optimise the protein&#8217;s desired&nbsp;function.</p>
+<p>In <a href="https://openreview.net/forum?id=1vrpdV9U3i">Variational Search Distributions</a>
+(<span class="caps">VSD</span>) we apply variational inference to the problem of active generation, and
+introduce a flexible framework for designing sequences such as proteins, with
+formal guarantees. Software for <span class="caps">VSD</span> can be found
+<a href="https://github.com/csiro-funml/variationalsearch">here</a>.</p>
+<div style="clear: both;"></div>
+
 <h3><strong>Causal Inference</strong> - Machine learning as a tool for evidence-based&nbsp;policy</h3>
 <div class="col-sm-6 col-md-6" style="margin-left: -15px;">
 <div class="panel panel-default">
@@ -89,7 +117,7 @@ done to date, starting with newer work at the&nbsp;top.</p>
         <img src="/images/causal-dag.png" alt="Simple causal diagram">
     </div>
     <div class="panel-footer">
-        Graphical representation of a relationships assumed in a simple 
+        Graphical representation of a relationships assumed in a simple
         causal model.
     </div>
 </div>
@@ -216,7 +244,7 @@ sessions&nbsp;etc.</p>
         </div>
         <div class="panel-footer">
             revrand also uses recent advances in variational inference to
-            accurately approximate fully Bayesian posteriors for non-conjugate 
+            accurately approximate fully Bayesian posteriors for non-conjugate
             models, such as generalised linear models. In this way it can
             provide comprehensive measures of uncertainty in its predictions.
         </div>
@@ -245,7 +273,7 @@ generalised linear models. A few features of this library&nbsp;are:</p>
 <div class="col-sm-8 col-md-8" style="margin-left: -15px;">
 <div class="panel panel-default">
     <div class="panel-body">
-        <img src="/images/EKS-seismic.png" alt="EKS seismic 
+        <img src="/images/EKS-seismic.png" alt="EKS seismic
         inversion">
     </div>
     <div class="panel-footer">
@@ -334,7 +362,7 @@ Levenberg-Marquardt algorithm, or in a recursive manner such as the extended
 and unscented Kalman filters (<span class="caps">EKF</span>, <span class="caps">UKF</span>). In many inversion problems we have a
 continuous process; a smooth trajectory of a robot arm for example.
 Non-parametric regression techniques like Gaussian processes seem applicable,
-and have been used in linear inversion&nbsp;problems. </p>
+and have been used in linear inversion&nbsp;problems.</p>
 <p>In this work we present two new methods for inference in Gaussian process (<span class="caps">GP</span>)
 models with general nonlinear likelihoods. Inference is based on a variational
 framework where a Gaussian posterior is assumed and the likelihood is
@@ -374,7 +402,7 @@ for more&nbsp;details.</p>
             The corresponding learned segment clusters to the images in the
             previous figure. The composition and proportions of these segment
             clusters (coloured regions) are fairly consistent within an image
-            cluster. 
+            cluster.
         </div>
     </div>
     </div>
@@ -385,7 +413,7 @@ producing the ground-truth data for supervised (trained) algorithms can
 represent a substantial, and potentially expensive, human effort. In these
 situations there is scope for the use of unsupervised approaches, such as
 clustering, which can model collections of images and automatically summarise
-their content without human&nbsp;training. </p>
+their content without human&nbsp;training.</p>
 <p>To explore how modelling context effects clustering results, I derived several
 new algorithms that simultaneously cluster images and segments (super-pixels)
 within images. These algorithms also model collections of photos such as photo
@@ -397,7 +425,7 @@ of scene (image cluster), object detection (segment clustering) can be
 improved. That is, we are likely to find trees in a forest. Additionally, by
 knowing about the distribution and co-occurrence of objects in an image, we
 have a better idea of the type of scene (cows and grass most likely make a
-rural&nbsp;scene). </p>
+rural&nbsp;scene).</p>
 <p>These algorithms for unsupervised scene understanding outperform other
 unsupervised algorithms for segment and scene clustering. This is because of
 how they model context. These algorithms were even found to be competitive with
@@ -420,7 +448,7 @@ this problem. It shares image clusters between groups or albums, and keeps the
 proportion of clusters (mixture-weights) specific to each group, thereby
 modelling the context of the group. By doing this, the algorithm is actually
 better at finding clusters, and is often faster when dealing with large
-datasets, than regular mixture model based approaches. See my 
+datasets, than regular mixture model based approaches. See my
 <a href="/docs/Thesis.pdf">thesis (ch.4)</a> for more&nbsp;information.</p>
 <div class="panel panel-default">
     <div class="panel-body">
@@ -479,7 +507,7 @@ for more&nbsp;details.</p>
         </div>
         </div>
     </div>
-    <div class="col-sm-4"> 
+    <div class="col-sm-4">
         <div class="panel panel-default">
         <div class="panel-body">
             <img src="/images/scott25_xy.png" alt="Survey labels">
@@ -534,7 +562,7 @@ for more&nbsp;details.</p>
    <div class="container">
       <hr>
       <div class="row">
-         <div class="col-xs-10">&copy; 2023 Dan Steinberg
+         <div class="col-xs-10">&copy; 2025 Dan Steinberg
             &middot; Powered by <a href="https://github.com/DandyDev/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
             <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
             <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>         </div>
