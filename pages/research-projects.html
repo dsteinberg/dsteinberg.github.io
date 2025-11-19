@@ -14,7 +14,7 @@
 <link rel="canonical" href="/pages/research-projects.html">
 
         <meta name="author" content="Dan Steinberg" />
-        <meta name="description" content="This page presents a brief summary of some research and projects I have done to date, starting with newer work at the top. Active Generation - for protein engineering Active generation as implemented by variational search distributions (VSD). In traditional protein engineering, researchers often rely on random mutagenesis or directed evolution …" />
+        <meta name="description" content="This page presents a brief summary of some research and projects I have done to date, starting with newer work at the top. Active Generation - Generative models for black box optimisation Active generation as implemented by variational search distributions (VSD). Active generation advances the union of generative modelling and black-box …" />
 
 
 
@@ -82,7 +82,7 @@ Dan Steinberg            </a>
         <div class="entry-content">
             <p>This page presents a brief summary of some research and projects I have
 done to date, starting with newer work at the&nbsp;top.</p>
-<h3><strong>Active Generation</strong> - for protein&nbsp;engineering</h3>
+<h3><strong>Active Generation</strong> - Generative models for black box&nbsp;optimisation</h3>
 <div class="col-sm-6 col-md-6" style="margin-left: -15px;">
 <div class="panel panel-default">
     <div class="panel-body">
@@ -94,20 +94,26 @@ done to date, starting with newer work at the&nbsp;top.</p>
 </div>
 </div>
 
-<p>In traditional protein engineering, researchers often rely on random
-mutagenesis or directed evolution to optimise the function of a protein. For
-example, designing enzymes to break down plastics. This can be
-resource-intensive and time-consuming due to the immense combinatorial
-possibilities of amino acid sequences. Active generation addresses this
-challenge by combining generative models of protein sequences with Bayesian
-optimisation techniques that identify which sequences, when tested, would
-provide the most valuable information to refine the predictive and generative
-models, and thereby more efficiently optimise the protein&#8217;s desired&nbsp;function.</p>
+<p>Active generation advances the union of generative modelling and black-box
+optimisation so that <span class="caps">AI</span> systems can design new artefacts &#8212; from molecules and
+materials to robotic components and algorithms &#8212; directly from high-level
+objectives. We combine powerful generative priors (transformers, flow matching
+etc.) with machine-learning optimisation loops that decide which experiments to
+run next, allowing the model to continually refine both its predictive beliefs
+and its search distribution. This fusion turns design problems that once relied
+on trial-and-error into targeted, data-driven discovery pipelines, yielding
+scalable tools for any domain where evaluating a candidate is expensive but
+generating hypotheses is&nbsp;cheap.</p>
 <p>In <a href="https://openreview.net/forum?id=1vrpdV9U3i">Variational Search Distributions</a>
 (<span class="caps">VSD</span>) we apply variational inference to the problem of active generation, and
 introduce a flexible framework for designing sequences such as proteins, with
 formal guarantees. Software for <span class="caps">VSD</span> can be found
-<a href="https://github.com/csiro-funml/variationalsearch">here</a>.</p>
+<a href="https://github.com/csiro-funml/variationalsearch">here</a>. We extend this work
+for multi-objective optimisation problems in <a href="https://arxiv.org/abs/2510.21052">Amortized Active Generation of
+Pareto Sets</a>, and then to reward model free
+settings in <a href="https://arxiv.org/abs/2510.25240">Generative Bayesian Optimization: Generative Models as Acquisition
+Functions</a>. We have also applied these methods
+to <a href="https://www.biorxiv.org/content/10.1101/2025.11.02.685536v2.abstract">actual protein engineering tasks</a>.</p>
 <p>We also investigate the spectral properties of sequence (protein, <span class="caps">DNA</span>)
 lansdcapes in <a href="https://proceedings.mlr.press/v258/zhu25c.html">Protein fitness landscape: spectral graph theory
 perspective</a>. Using our
@@ -533,7 +539,7 @@ for more&nbsp;details.</p>
 <img width="100%" class="img-rounded floatcenter" src="../images/profile_photo.jpg"/>
 </p>
 <p>
-    <span style="unicode-bidi:bidi-override;direction:rtl;"></span><a href="../docs/dsteinberg.pdf">Curriculum Vitae</a>
+    <span style="unicode-bidi:bidi-override;direction:rtl;"></span>
 </p>
             </div>
             <div id="sidebar"> 
