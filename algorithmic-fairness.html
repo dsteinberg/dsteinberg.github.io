@@ -2,7 +2,7 @@
 <html lang="en"
 >
 <head>
-    <title>About - Dan Steinberg</title>
+    <title>Algorithmic Fairness — Fair Regression Algorithms - Dan Steinberg</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -11,10 +11,10 @@
 
     <link href="/images/favicon.ico" rel="icon">
 
-<link rel="canonical" href="/index.html">
+<link rel="canonical" href="/algorithmic-fairness.html">
 
         <meta name="author" content="Dan Steinberg" />
-        <meta name="description" content="I am currently a team leader at CSIRO, where we are developing probabilistic and generative machine learning methods for scientific discovery and experimental design. My current work centres on two threads: generative Bayesian optimisation for protein and molecular engineering, and causal inference and discovery from observational data. On the generative …" />
+        <meta name="description" content="Algorithmic Fairness - Fair Regression Algorithms A simulated dataset depicting an unfair prediction under the “separation” and “sufficiency” fairness criteria. Algorithmic fairness involves expressing notions such as equity, equality, or reasonable treatment, as quantifiable measures that a machine learning algorithm can optimise. Mathematising these concepts, so they can be inferred from …" />
 
 
 
@@ -51,7 +51,7 @@ Dan Steinberg            </a>
         </div>
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav">
-                         <li class="active"><a href="/index.html">
+                         <li><a href="/index.html">
                              About
                           </a></li>
                          <li><a href="/pages/publications.html">
@@ -73,50 +73,57 @@ Dan Steinberg            </a>
     <div class="row">
         <div class="col-sm-8 col-md-9">
 
-    <section id="content" class="body">
-        
-        <div class="entry-content">
-            <p>I am currently a team leader at <a href="https://www.csiro.au/"><span class="caps">CSIRO</span></a>, where we are
-developing probabilistic and generative machine learning methods for scientific
-discovery and experimental design. My current work centres on two threads:
-generative Bayesian optimisation for protein and molecular engineering, and
-causal inference and discovery from observational&nbsp;data.</p>
-<p>On the generative optimisation side, my colleagues and I introduced
-<a href="https://openreview.net/forum?id=1vrpdV9U3i">Variational Search Distributions</a>
-(<span class="caps">VSD</span>), which frames active generation of rare, high-fitness designs as
-variational inference over a generative prior. We extended this to
-multi-objective settings with <a href="https://openreview.net/forum?id=jNQ40aw5qL">Amortised Active Generation of Pareto
-Sets</a>, and to a reward-model-free
-formulation in <a href="https://openreview.net/forum?id=GBWkRRJrdu">Generative Bayesian
-Optimisation</a>, where a generative
-model itself plays the role of an acquisition function. These methods are being
-applied to real protein engineering tasks in collaboration with <span class="caps">CSIRO</span>&#8217;s
-synthetic biology&nbsp;groups.</p>
-<p>On the causal side, I led a series of observational studies for an Australian
-school jurisdiction, quantifying how aspects of the school system and student
-well-being affect educational outcomes, including a <a href="https://www.nature.com/articles/s41598-022-05780-0">study linking youth
-well-being to academic success</a>
-published in Scientific Reports. More
-recently my work has moved toward causal discovery — learning causal graph
-structure from data. <a href="https://arxiv.org/abs/2602.01483">CaPE</a> addresses the
-under-determination of <span class="caps">DAG</span> estimation by bringing a domain expert into the loop
-via Bayesian active learning, and <a href="https://arxiv.org/abs/2605.07204">Arrow</a> is
-a transformer-based foundation model for zero-shot causal discovery that
-requires no task-specific&nbsp;training.</p>
-<p>Earlier work includes large-scale spatial inference for natural-science
-problems — soil mapping, geochemistry, and depth-to-basement prediction — using
-the <a href="https://github.com/data61/landshark">Landshark</a> and
-<a href="https://github.com/GeoscienceAustralia/uncover-ml">Uncover-<span class="caps">ML</span></a> pipelines, and
-unsupervised probabilistic models for interpreting seafloor imagery collected
-by autonomous underwater vehicles&nbsp;(AUVs).</p>
-<p>I finished my PhD in July 2013 with the <a href="http://marine.acfr.usyd.edu.au/">marine systems
-group</a> at the <a href="http://www.acfr.usyd.edu.au">Australian Centre for Field
-Robotics</a>, which is in the <a href="http://www.sydney.edu.au">University of
-Sydney</a>. I have a Bachelor of Engineering
-(Mechatronics, honours 1) and Bachelor of Commerce (Finance), also from the
-University of&nbsp;Sydney.</p>
-        </div>
+    <section id="content">
+        <article>
+            <header class="page-header">
+                <h1>Algorithmic Fairness — Fair Regression&nbsp;Algorithms</h1>
+            </header>
+            <div class="entry-content">
+                <div class="panel">
+                    <div class="panel-body">
+<footer class="post-info">
+    <span class="label label-default">Date</span>
+    <span class="published">
+        <i class="fa fa-calendar"></i><time datetime="2020-01-01T00:00:00+11:00"> Wed 01 January 2020</time>
+    </span>
+
+
+
+    
+</footer><!-- /.post-info -->                    </div>
+                </div>
+                <h3><strong>Algorithmic Fairness</strong> - Fair Regression&nbsp;Algorithms</h3>
+<div class="col-sm-5 col-md-5" style="margin-left: -15px;">
+<div class="panel panel-default">
+    <div class="panel-body">
+        <img src="/images/variance.png" alt="Unfairness toy example">
+    </div>
+    <div class="panel-footer">
+        A simulated dataset depicting an unfair prediction under the
+        &#8220;separation&#8221; and &#8220;sufficiency&#8221; fairness criteria.
+    </div>
+</div>
+</div>
+
+<p>Algorithmic fairness involves expressing notions such as equity, equality, or
+reasonable treatment, as quantifiable measures that a machine learning
+algorithm can optimise. Mathematising these concepts, so they can be inferred
+from data is challenging, as is deciding on the balance between fairness and
+other objectives such as accuracy in a particular application. My research in
+this area along with others at the <a href="https://gradientinstitute.org">Gradient
+Institute</a> has thus far focused on regression
+algorithms. Measuring the fairness of a regression algorithm is difficult
+compared to the classification case for many popular fairness criteria.
+Similarly, adjusting the predictions of a regressor is more complex than doing
+so for a classifier, and so our research has been targeting these areas. Here
+you can read more about <a href="https://arxiv.org/abs/2001.06089">measurement</a>, and
+<a href="https://arxiv.org/abs/2002.06200">adjusting</a> regression&nbsp;algorithms.</p>
+<div style="clear: both;"></div>
+            </div>
+            <!-- /.entry-content -->
+        </article>
     </section>
+
         </div>
         <div class="col-sm-4 col-md-3 side-content">
             <div id="aboutme" class="entry-content">

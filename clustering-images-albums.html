@@ -2,7 +2,7 @@
 <html lang="en"
 >
 <head>
-    <title>About - Dan Steinberg</title>
+    <title>Clustering Images Over Many Datasets - Dan Steinberg</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -11,10 +11,10 @@
 
     <link href="/images/favicon.ico" rel="icon">
 
-<link rel="canonical" href="/index.html">
+<link rel="canonical" href="/clustering-images-albums.html">
 
         <meta name="author" content="Dan Steinberg" />
-        <meta name="description" content="I am currently a team leader at CSIRO, where we are developing probabilistic and generative machine learning methods for scientific discovery and experimental design. My current work centres on two threads: generative Bayesian optimisation for protein and molecular engineering, and causal inference and discovery from observational data. On the generative …" />
+        <meta name="description" content="Clustering Images Over Many Datasets Large image collections are frequently partitioned into distinct but related groups, such as photo albums from distinct environments that contain similar scenes. For example, a hiking holiday album may contain many images of forests and maybe a few villages. Whereas a conference trip album may …" />
 
 
 
@@ -51,7 +51,7 @@ Dan Steinberg            </a>
         </div>
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav">
-                         <li class="active"><a href="/index.html">
+                         <li><a href="/index.html">
                              About
                           </a></li>
                          <li><a href="/pages/publications.html">
@@ -73,50 +73,58 @@ Dan Steinberg            </a>
     <div class="row">
         <div class="col-sm-8 col-md-9">
 
-    <section id="content" class="body">
-        
-        <div class="entry-content">
-            <p>I am currently a team leader at <a href="https://www.csiro.au/"><span class="caps">CSIRO</span></a>, where we are
-developing probabilistic and generative machine learning methods for scientific
-discovery and experimental design. My current work centres on two threads:
-generative Bayesian optimisation for protein and molecular engineering, and
-causal inference and discovery from observational&nbsp;data.</p>
-<p>On the generative optimisation side, my colleagues and I introduced
-<a href="https://openreview.net/forum?id=1vrpdV9U3i">Variational Search Distributions</a>
-(<span class="caps">VSD</span>), which frames active generation of rare, high-fitness designs as
-variational inference over a generative prior. We extended this to
-multi-objective settings with <a href="https://openreview.net/forum?id=jNQ40aw5qL">Amortised Active Generation of Pareto
-Sets</a>, and to a reward-model-free
-formulation in <a href="https://openreview.net/forum?id=GBWkRRJrdu">Generative Bayesian
-Optimisation</a>, where a generative
-model itself plays the role of an acquisition function. These methods are being
-applied to real protein engineering tasks in collaboration with <span class="caps">CSIRO</span>&#8217;s
-synthetic biology&nbsp;groups.</p>
-<p>On the causal side, I led a series of observational studies for an Australian
-school jurisdiction, quantifying how aspects of the school system and student
-well-being affect educational outcomes, including a <a href="https://www.nature.com/articles/s41598-022-05780-0">study linking youth
-well-being to academic success</a>
-published in Scientific Reports. More
-recently my work has moved toward causal discovery — learning causal graph
-structure from data. <a href="https://arxiv.org/abs/2602.01483">CaPE</a> addresses the
-under-determination of <span class="caps">DAG</span> estimation by bringing a domain expert into the loop
-via Bayesian active learning, and <a href="https://arxiv.org/abs/2605.07204">Arrow</a> is
-a transformer-based foundation model for zero-shot causal discovery that
-requires no task-specific&nbsp;training.</p>
-<p>Earlier work includes large-scale spatial inference for natural-science
-problems — soil mapping, geochemistry, and depth-to-basement prediction — using
-the <a href="https://github.com/data61/landshark">Landshark</a> and
-<a href="https://github.com/GeoscienceAustralia/uncover-ml">Uncover-<span class="caps">ML</span></a> pipelines, and
-unsupervised probabilistic models for interpreting seafloor imagery collected
-by autonomous underwater vehicles&nbsp;(AUVs).</p>
-<p>I finished my PhD in July 2013 with the <a href="http://marine.acfr.usyd.edu.au/">marine systems
-group</a> at the <a href="http://www.acfr.usyd.edu.au">Australian Centre for Field
-Robotics</a>, which is in the <a href="http://www.sydney.edu.au">University of
-Sydney</a>. I have a Bachelor of Engineering
-(Mechatronics, honours 1) and Bachelor of Commerce (Finance), also from the
-University of&nbsp;Sydney.</p>
-        </div>
+    <section id="content">
+        <article>
+            <header class="page-header">
+                <h1>Clustering Images Over Many&nbsp;Datasets</h1>
+            </header>
+            <div class="entry-content">
+                <div class="panel">
+                    <div class="panel-body">
+<footer class="post-info">
+    <span class="label label-default">Date</span>
+    <span class="published">
+        <i class="fa fa-calendar"></i><time datetime="2012-01-01T00:00:00+11:00"> Sun 01 January 2012</time>
+    </span>
+
+
+
+    
+</footer><!-- /.post-info -->                    </div>
+                </div>
+                <h3>Clustering Images Over Many&nbsp;Datasets</h3>
+<p>Large image collections are frequently partitioned into distinct but related
+groups, such as photo albums from distinct environments that contain similar
+scenes. For example, a hiking holiday album may contain many images of forests
+and maybe a few villages. Whereas a conference trip album may have many urban
+scenes and images of people, with perhaps a few images of park-land. These
+groups, or albums, may be thought of as providing context for the images they&nbsp;contain.</p>
+<p>I have formulated and applied a latent Dirichlet allocation-like algorithm to
+this problem. It shares image clusters between groups or albums, and keeps the
+proportion of clusters (mixture-weights) specific to each group, thereby
+modelling the context of the group. By doing this, the algorithm is actually
+better at finding clusters, and is often faster when dealing with large
+datasets, than regular mixture model based approaches. See my
+<a href="/docs/Thesis.pdf">thesis (ch.4)</a> for more&nbsp;information.</p>
+<div class="panel panel-default">
+    <div class="panel-body">
+        <img src="/images/halbums_gmc_sub.jpg" alt="Album clusters">
+    </div>
+    <div class="panel-footer">
+        Here 10,300 images from 12 holiday photo albums are clustered. Shown
+        are the most and least &#8220;likely&#8221; images from seven clusters (out of 23).
+        Also shown are the most frequent five tags from Flickr associated with
+        the clusters. The algorithms that could model these photo albums found
+        more self-consistent clusters than the algorithms that count not, such
+        as regular mixture models. This took less than a minute to run. Again,
+        these are entirely unsupervised algorithms
+    </div>
+</div>
+            </div>
+            <!-- /.entry-content -->
+        </article>
     </section>
+
         </div>
         <div class="col-sm-4 col-md-3 side-content">
             <div id="aboutme" class="entry-content">

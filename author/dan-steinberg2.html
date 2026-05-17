@@ -2,7 +2,7 @@
 <html lang="en"
 >
 <head>
-    <title>misc - Dan Steinberg</title>
+    <title>Articles by Dan Steinberg - Dan Steinberg</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -12,8 +12,7 @@
     <link href="/images/favicon.ico" rel="icon">
 
 
-    <meta name="author" content="Dan Steinberg" />
-    <meta name="keywords" content="misc" />
+        <meta name="author" content="Dan Steinberg" />
 
 
 
@@ -30,9 +29,9 @@
     <!-- Google Analytics (best in HEAD) -->
 
     <!-- Google Fonts -->
-    <link 
-        href="https://fonts.googleapis.com/css?family=Lato&display=swap"
-        rel="stylesheet"> 
+    <link
+        href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,300;1,8..60,400&display=swap"
+        rel="stylesheet">
 </head>
 <body>
 
@@ -59,9 +58,6 @@ Dan Steinberg            </a>
                          <li><a href="/pages/research-projects.html">
                              Research +&nbsp;Projects
                           </a></li>
-                        <li class="active">
-                            <a href="/category/misc.html">Misc</a>
-                        </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="/archives.html"><i class="fa fa-th-list"></i><span class="icon-label">Archives</span></a></li>
@@ -73,24 +69,71 @@ Dan Steinberg            </a>
 
 <div class="container">
     <div class="row">
-        <div class="col-sm-9 col-md-10">
+        <div class="col-sm-8 col-md-9">
 
             <article>
-                <h2><a href="/creating-this-site.html">Creating this&nbsp;site</a></h2>
-                <div class="summary"><p>This is a test page for now, but it will maybe document this websites&nbsp;creation:</p>
-<ul>
-<li>Pelican</li>
-<li>Pelican-Bootstrap3</li>
-<li>Bootswatch&nbsp;Cyborg</li>
-<li>Pelican-Bibtex</li>
-</ul>
-                    <a class="btn btn-default btn-xs" href="/creating-this-site.html">more ...</a>
+                <h2><a href="/scene-understanding.html">Unsupervised Scene&nbsp;&#8220;Understanding&#8221;</a></h2>
+                <div class="summary"><h3>Unsupervised Scene&nbsp;&#8220;Understanding&#8221;</h3>
+<div>
+    <div class="col-sm-4 col-md-3" style="margin-left: -15px;">
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <img src="/images/MSRC_im_ex.jpg" alt="MSRC clusters" />
+        </div>
+        <div class="panel-footer">
+            Sample images belonging to image clusters found by an algorithm
+            that can use both whole-image features and distributions of objects
+            to describe images. The image clusters are shown row-wise.
+        </div>
+    </div>
+    </div>
+    <div class="col-sm-4 col-md-3" style="margin-left: -15px; margin-right: 0px;">
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <img src="/images/MSRC_seg_ex.jpg" alt="MSRC segments" />
+        </div>
+        <div class="panel-footer">
+            The corresponding learned segment clusters to the images in the
+            previous figure. The composition and proportions of these …</div></div></div></div>
+                    <a class="btn btn-default btn-xs" href="/scene-understanding.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="/clustering-images-albums.html">Clustering Images Over Many&nbsp;Datasets</a></h2>
+                <div class="summary"><h3>Clustering Images Over Many&nbsp;Datasets</h3>
+<p>Large image collections are frequently partitioned into distinct but related
+groups, such as photo albums from distinct environments that contain similar
+scenes. For example, a hiking holiday album may contain many images of forests
+and maybe a few villages. Whereas a conference trip album may …</p>
+                    <a class="btn btn-default btn-xs" href="/clustering-images-albums.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="/clustering-seafloor.html">Clustering Images of the&nbsp;Seafloor</a></h2>
+                <div class="summary"><h3>Clustering Images of the&nbsp;Seafloor</h3>
+<p>I have applied a Bayesian non-parametric algorithm, the variational Dirichlet
+process (with Gaussian clusters), to clustering large quantities of seafloor
+imagery (obtained from an autonomous underwater vehicle or <span class="caps">AUV</span>) in an
+unsupervised manner. The algorithm has the attractive property that it does not
+require knowledge …</p>
+                    <a class="btn btn-default btn-xs" href="/clustering-seafloor.html">more ...</a>
                 </div>
             </article>
             <hr/>
 
+        <ul class="pagination">
+                <li class="prev"><a href="/author/dan-steinberg.html">&laquo;</a>
+                </li>
+                    <li class=""><a
+                            href="/author/dan-steinberg.html">1</a></li>
+                    <li class="active"><a
+                            href="/author/dan-steinberg2.html">2</a></li>
+                <li class="next disabled"><a href="#">&raquo;</a></li>
+        </ul>
         </div>
-        <div class="col-sm-3 col-md-2 side-content">
+        <div class="col-sm-4 col-md-3 side-content">
             <div id="aboutme" class="entry-content">
 <p>
 <img width="100%" class="img-rounded floatcenter" src="../images/profile_photo.jpg"/>
@@ -131,7 +174,7 @@ Dan Steinberg            </a>
    <div class="container">
       <hr>
       <div class="row">
-         <div class="col-xs-10">&copy; 2025 Dan Steinberg
+         <div class="col-xs-10">&copy; 2026 Dan Steinberg
             &middot; Powered by <a href="https://github.com/DandyDev/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
             <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
             <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>         </div>

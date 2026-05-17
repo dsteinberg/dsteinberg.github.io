@@ -2,7 +2,7 @@
 <html lang="en"
 >
 <head>
-    <title>About - Dan Steinberg</title>
+    <title>Clustering Images of the Seafloor - Dan Steinberg</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -11,10 +11,10 @@
 
     <link href="/images/favicon.ico" rel="icon">
 
-<link rel="canonical" href="/index.html">
+<link rel="canonical" href="/clustering-seafloor.html">
 
         <meta name="author" content="Dan Steinberg" />
-        <meta name="description" content="I am currently a team leader at CSIRO, where we are developing probabilistic and generative machine learning methods for scientific discovery and experimental design. My current work centres on two threads: generative Bayesian optimisation for protein and molecular engineering, and causal inference and discovery from observational data. On the generative …" />
+        <meta name="description" content="Clustering Images of the Seafloor I have applied a Bayesian non-parametric algorithm, the variational Dirichlet process (with Gaussian clusters), to clustering large quantities of seafloor imagery (obtained from an autonomous underwater vehicle or AUV) in an unsupervised manner. The algorithm has the attractive property that it does not require knowledge …" />
 
 
 
@@ -51,7 +51,7 @@ Dan Steinberg            </a>
         </div>
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav">
-                         <li class="active"><a href="/index.html">
+                         <li><a href="/index.html">
                              About
                           </a></li>
                          <li><a href="/pages/publications.html">
@@ -73,50 +73,83 @@ Dan Steinberg            </a>
     <div class="row">
         <div class="col-sm-8 col-md-9">
 
-    <section id="content" class="body">
-        
-        <div class="entry-content">
-            <p>I am currently a team leader at <a href="https://www.csiro.au/"><span class="caps">CSIRO</span></a>, where we are
-developing probabilistic and generative machine learning methods for scientific
-discovery and experimental design. My current work centres on two threads:
-generative Bayesian optimisation for protein and molecular engineering, and
-causal inference and discovery from observational&nbsp;data.</p>
-<p>On the generative optimisation side, my colleagues and I introduced
-<a href="https://openreview.net/forum?id=1vrpdV9U3i">Variational Search Distributions</a>
-(<span class="caps">VSD</span>), which frames active generation of rare, high-fitness designs as
-variational inference over a generative prior. We extended this to
-multi-objective settings with <a href="https://openreview.net/forum?id=jNQ40aw5qL">Amortised Active Generation of Pareto
-Sets</a>, and to a reward-model-free
-formulation in <a href="https://openreview.net/forum?id=GBWkRRJrdu">Generative Bayesian
-Optimisation</a>, where a generative
-model itself plays the role of an acquisition function. These methods are being
-applied to real protein engineering tasks in collaboration with <span class="caps">CSIRO</span>&#8217;s
-synthetic biology&nbsp;groups.</p>
-<p>On the causal side, I led a series of observational studies for an Australian
-school jurisdiction, quantifying how aspects of the school system and student
-well-being affect educational outcomes, including a <a href="https://www.nature.com/articles/s41598-022-05780-0">study linking youth
-well-being to academic success</a>
-published in Scientific Reports. More
-recently my work has moved toward causal discovery — learning causal graph
-structure from data. <a href="https://arxiv.org/abs/2602.01483">CaPE</a> addresses the
-under-determination of <span class="caps">DAG</span> estimation by bringing a domain expert into the loop
-via Bayesian active learning, and <a href="https://arxiv.org/abs/2605.07204">Arrow</a> is
-a transformer-based foundation model for zero-shot causal discovery that
-requires no task-specific&nbsp;training.</p>
-<p>Earlier work includes large-scale spatial inference for natural-science
-problems — soil mapping, geochemistry, and depth-to-basement prediction — using
-the <a href="https://github.com/data61/landshark">Landshark</a> and
-<a href="https://github.com/GeoscienceAustralia/uncover-ml">Uncover-<span class="caps">ML</span></a> pipelines, and
-unsupervised probabilistic models for interpreting seafloor imagery collected
-by autonomous underwater vehicles&nbsp;(AUVs).</p>
-<p>I finished my PhD in July 2013 with the <a href="http://marine.acfr.usyd.edu.au/">marine systems
-group</a> at the <a href="http://www.acfr.usyd.edu.au">Australian Centre for Field
-Robotics</a>, which is in the <a href="http://www.sydney.edu.au">University of
-Sydney</a>. I have a Bachelor of Engineering
-(Mechatronics, honours 1) and Bachelor of Commerce (Finance), also from the
-University of&nbsp;Sydney.</p>
+    <section id="content">
+        <article>
+            <header class="page-header">
+                <h1>Clustering Images of the&nbsp;Seafloor</h1>
+            </header>
+            <div class="entry-content">
+                <div class="panel">
+                    <div class="panel-body">
+<footer class="post-info">
+    <span class="label label-default">Date</span>
+    <span class="published">
+        <i class="fa fa-calendar"></i><time datetime="2011-01-01T00:00:00+11:00"> Sat 01 January 2011</time>
+    </span>
+
+
+
+    
+</footer><!-- /.post-info -->                    </div>
+                </div>
+                <h3>Clustering Images of the&nbsp;Seafloor</h3>
+<p>I have applied a Bayesian non-parametric algorithm, the variational Dirichlet
+process (with Gaussian clusters), to clustering large quantities of seafloor
+imagery (obtained from an autonomous underwater vehicle or <span class="caps">AUV</span>) in an
+unsupervised manner. The algorithm has the attractive property that it does not
+require knowledge of the number of clusters to be specified, which enables
+truly autonomous sensor data abstraction. The underlying image representation
+uses descriptors for colour, texture and 3D structure that are obtained from
+stereo cameras. This approach consistently produces easily recognisable
+clusters that approximately correspond to different habitat types.  These
+clusters are useful in observing spatial patterns, focusing expert analysis on
+subsets of seafloor imagery, aiding mission planning, and potentially informing
+real time adaptive sampling. See my
+<a href="http://www.isrr-2011.org/ISRR-2011//Program_files/Papers/Williams-ISRR-2011.pdf"><span class="caps">ISRR</span> paper</a>
+for more&nbsp;details.</p>
+<div class="row">
+    <div class="col-sm-4">
+        <div class="panel panel-default">
+        <div class="panel-body">
+            <img src="/images/scott25_img.jpg" alt="Cluster example">
         </div>
+        <div class="panel-footer">
+            An example of images from an <span class="caps">AUV</span> survey that have been clustered.
+            This survey has 10,000 images within it. Some sample images
+            belonging to each of the 6 clusters found by the algorithm are
+            shown row-wise. The algorithm used only took a few seconds to
+            obtain these results, and needed no human generated training data.
+            That is, the algorithm found these image clusters with no human
+            input.<br>
+        </div>
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="panel panel-default">
+        <div class="panel-body">
+            <img src="/images/scott25_mos.jpg" alt="Survey">
+        </div>
+        <div class="panel-footer">
+            Top-down mosaic of the survey.
+        </div>
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="panel panel-default">
+        <div class="panel-body">
+            <img src="/images/scott25_xy.png" alt="Survey labels">
+        </div>
+        <div class="panel-footer">
+            Top-down view image locations coloured by image cluster labels.
+        </div>
+        </div>
+    </div>
+</div>
+            </div>
+            <!-- /.entry-content -->
+        </article>
     </section>
+
         </div>
         <div class="col-sm-4 col-md-3 side-content">
             <div id="aboutme" class="entry-content">

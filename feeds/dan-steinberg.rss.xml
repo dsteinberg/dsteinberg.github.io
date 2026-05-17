@@ -1,8 +1,173 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Dan Steinberg - Dan Steinberg</title><link>/</link><description></description><lastBuildDate>Sun, 24 Aug 2014 00:00:00 +1000</lastBuildDate><item><title>Creating this site</title><link>/creating-this-site.html</link><description>&lt;p&gt;This is a test page for now, but it will maybe document this websites&amp;nbsp;creation:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Pelican&lt;/li&gt;
-&lt;li&gt;Pelican-Bootstrap3&lt;/li&gt;
-&lt;li&gt;Bootswatch&amp;nbsp;Cyborg&lt;/li&gt;
-&lt;li&gt;Pelican-Bibtex&lt;/li&gt;
-&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Dan Steinberg</dc:creator><pubDate>Sun, 24 Aug 2014 00:00:00 +1000</pubDate><guid isPermaLink="false">tag:None,2014-08-24:/creating-this-site.html</guid><category>misc</category></item></channel></rss>
+<rss version="2.0"><channel><title>Dan Steinberg - Dan Steinberg</title><link>/</link><description></description><lastBuildDate>Thu, 01 Jan 2026 00:00:00 +1100</lastBuildDate><item><title>Causal Discovery in the Real World</title><link>/causal-discovery.html</link><description>&lt;h3&gt;Causal Discovery in the Real&amp;nbsp;World&lt;/h3&gt;
+&lt;p&gt;Inferring causal structure from observational data is a fundamental challenge
+in science and evidence-based decision-making. Most existing methods for
+learning directed acyclic graphs (DAGs) assume that the true causal graph is
+identifiable from data — an assumption that rarely holds cleanly in practice,
+where causal …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Dan Steinberg</dc:creator><pubDate>Thu, 01 Jan 2026 00:00:00 +1100</pubDate><guid isPermaLink="false">tag:None,2026-01-01:/causal-discovery.html</guid><category>Projects</category></item><item><title>Active Generation — Generative Models for Black Box Optimisation</title><link>/active-generation.html</link><description>&lt;h3&gt;&lt;strong&gt;Active Generation&lt;/strong&gt; - Generative models for black box&amp;nbsp;optimisation&lt;/h3&gt;
+&lt;div class="col-sm-6 col-md-6" style="margin-left: -15px;"&gt;
+&lt;div class="panel panel-default"&gt;
+    &lt;div class="panel-body"&gt;
+        &lt;img src="/images/active_generation.png" alt="Active generation"&gt;
+    &lt;/div&gt;
+    &lt;div class="panel-footer"&gt;
+        Active generation as implemented by variational search distributions (&lt;span class="caps"&gt;VSD&lt;/span&gt;).
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Active generation advances the union of generative modelling and black-box
+optimisation so that &lt;span class="caps"&gt;AI&lt;/span&gt; systems can design new artefacts &amp;#8212; from molecules and
+materials to robotic components and algorithms &amp;#8212; directly from high-level
+objectives. We …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Dan Steinberg</dc:creator><pubDate>Mon, 01 Jan 2024 00:00:00 +1100</pubDate><guid isPermaLink="false">tag:None,2024-01-01:/active-generation.html</guid><category>Projects</category></item><item><title>Causal Inference — Machine Learning for Evidence-Based Policy</title><link>/causal-inference.html</link><description>&lt;h3&gt;&lt;strong&gt;Causal Inference&lt;/strong&gt; - Machine learning as a tool for evidence-based&amp;nbsp;policy&lt;/h3&gt;
+&lt;div class="col-sm-6 col-md-6" style="margin-left: -15px;"&gt;
+&lt;div class="panel panel-default"&gt;
+    &lt;div class="panel-body"&gt;
+        &lt;img src="/images/causal-dag.png" alt="Simple causal diagram"&gt;
+    &lt;/div&gt;
+    &lt;div class="panel-footer"&gt;
+        Graphical representation of a relationships assumed in a simple
+        causal model.
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Machine learning (&lt;span class="caps"&gt;ML&lt;/span&gt;) can be a useful tool for observational causal inference
+studies, one of the cornerstones of evidence-based policy. &lt;span class="caps"&gt;ML&lt;/span&gt; can help us
+capture complex relationships in the …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Dan Steinberg</dc:creator><pubDate>Sat, 01 Jan 2022 00:00:00 +1100</pubDate><guid isPermaLink="false">tag:None,2022-01-01:/causal-inference.html</guid><category>Projects</category></item><item><title>Algorithmic Fairness — Fair Regression Algorithms</title><link>/algorithmic-fairness.html</link><description>&lt;h3&gt;&lt;strong&gt;Algorithmic Fairness&lt;/strong&gt; - Fair Regression&amp;nbsp;Algorithms&lt;/h3&gt;
+&lt;div class="col-sm-5 col-md-5" style="margin-left: -15px;"&gt;
+&lt;div class="panel panel-default"&gt;
+    &lt;div class="panel-body"&gt;
+        &lt;img src="/images/variance.png" alt="Unfairness toy example"&gt;
+    &lt;/div&gt;
+    &lt;div class="panel-footer"&gt;
+        A simulated dataset depicting an unfair prediction under the
+        &amp;#8220;separation&amp;#8221; and &amp;#8220;sufficiency&amp;#8221; fairness criteria.
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Algorithmic fairness involves expressing notions such as equity, equality, or
+reasonable treatment, as quantifiable measures that a machine learning
+algorithm can optimise. Mathematising these concepts, so they can be inferred
+from …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Dan Steinberg</dc:creator><pubDate>Wed, 01 Jan 2020 00:00:00 +1100</pubDate><guid isPermaLink="false">tag:None,2020-01-01:/algorithmic-fairness.html</guid><category>Projects</category></item><item><title>Landshark — Large-Scale Spatial Inference with TensorFlow</title><link>/landshark.html</link><description>&lt;h3&gt;&lt;strong&gt;Landshark&lt;/strong&gt; - Large-scale Spatial Inference with&amp;nbsp;Tensorflow&lt;/h3&gt;
+&lt;div class="col-sm-8 col-md-8" style="margin-left: -15px;"&gt;
+&lt;div class="panel panel-default"&gt;
+    &lt;div class="panel-body"&gt;
+        &lt;img src="/images/landshark.jpg" alt="Predictive entropy"&gt;
+    &lt;/div&gt;
+    &lt;div class="panel-footer"&gt;
+        The predictive entropy (uncertainty) of the concentration of an element
+        in soils in Western Australia.
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Landshark is a set of python command line tools that for supervised learning
+problems on large spatial raster datasets. It solves problems in which the user
+has a set …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Dan Steinberg</dc:creator><pubDate>Mon, 01 Jan 2018 00:00:00 +1100</pubDate><guid isPermaLink="false">tag:None,2018-01-01:/landshark.html</guid><category>Projects</category></item><item><title>Aboleth — A TensorFlow Framework for Bayesian Deep Learning</title><link>/aboleth.html</link><description>&lt;h3&gt;&lt;strong&gt;Aboleth&lt;/strong&gt; - A TensorFlow Framework for Bayesian Deep&amp;nbsp;Learning&lt;/h3&gt;
+&lt;div class="col-sm-7 col-md-7" style="margin-left: -15px;"&gt;
+&lt;div class="panel panel-default"&gt;
+    &lt;div class="panel-body"&gt;
+        &lt;img src="/images/bayesnn.png" alt="A Bayesian Neural Net"&gt;
+    &lt;/div&gt;
+    &lt;div class="panel-footer"&gt;
+        Depiction of a Bayesian Neural Net that is easily constructed using
+        Aboleth.
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;I am one of the primary creators of Aboleth, a bare-bones TensorFlow framework
+for Bayesian deep learning and Gaussian process&amp;nbsp;approximation.&lt;/p&gt;
+&lt;p&gt;The purpose of Aboleth is to provide a set …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Dan Steinberg</dc:creator><pubDate>Sun, 01 Jan 2017 00:00:00 +1100</pubDate><guid isPermaLink="false">tag:None,2017-01-01:/aboleth.html</guid><category>Projects</category></item><item><title>Revrand — Scalable Bayesian Generalised Linear Models</title><link>/revrand.html</link><description>&lt;h3&gt;&lt;strong&gt;Revrand&lt;/strong&gt; - Scalable Bayesian Generalised Linear&amp;nbsp;Models&lt;/h3&gt;
+&lt;div&gt;
+    &lt;div class="col-sm-5 col-md-4" style="margin-left: -15px;"&gt;
+    &lt;div class="panel panel-default"&gt;
+        &lt;div class="panel-body"&gt;
+            &lt;img src="https://github.com/NICTA/revrand/raw/master/docs/glm_sgd_demo.png"
+                 alt="Regression and GLM Demo" /&gt;
+        &lt;/div&gt;
+        &lt;div class="panel-footer"&gt;
+            revrand uses recent advances in large scale kernel methods to
+            approximate kernel machines, such as Gaussian processes, with
+            linear models. Using this technology we can harness the inferential
+            power of kernel machines while exploiting the scalability of linear
+            models.
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="col-sm-5 col-md-4" style="margin-left: -15px;"&gt;
+    &lt;div class="panel panel-default"&gt;
+        &lt;div class="panel-body"&gt;
+            &lt;img src="https://github.com/NICTA/revrand/raw/master/docs/glm_demo.png"
+             alt="GLM Demo" /&gt;
+        &lt;/div&gt;
+        &lt;div class="panel-footer"&gt;
+            revrand also uses recent advances …&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Dan Steinberg</dc:creator><pubDate>Fri, 01 Jan 2016 00:00:00 +1100</pubDate><guid isPermaLink="false">tag:None,2016-01-01:/revrand.html</guid><category>Projects</category></item><item><title>The Impact of Computerisation and Automation on Future Employment</title><link>/job-automation.html</link><description>&lt;h3&gt;The impact of computerisation and automation on future&amp;nbsp;employment&lt;/h3&gt;
+&lt;div class="col-sm-6 col-md-6" style="margin-left: -15px;"&gt;
+&lt;div class="panel panel-default"&gt;
+    &lt;div class="panel-body"&gt;
+        &lt;img src="/images/job-automation.jpg" alt="LGA probability of job loss."&gt;
+    &lt;/div&gt;
+    &lt;div class="panel-footer"&gt;
+        Weighted probability of job loss through computerisation and automation
+        in local government areas of Australia.
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This work is a qualitative study into the susceptibility of jobs in Australia
+to computerisation and automation over the next 10 to 15 years. The methodology …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Dan Steinberg</dc:creator><pubDate>Mon, 01 Jun 2015 00:00:00 +1000</pubDate><guid isPermaLink="false">tag:None,2015-06-01:/job-automation.html</guid><category>Projects</category></item><item><title>Extended and Unscented Kitchen Sinks</title><link>/extended-unscented-kitchen-sinks.html</link><description>&lt;h3&gt;Extended and Unscented Kitchen&amp;nbsp;Sinks&lt;/h3&gt;
+&lt;div class="col-sm-8 col-md-8" style="margin-left: -15px;"&gt;
+&lt;div class="panel panel-default"&gt;
+    &lt;div class="panel-body"&gt;
+        &lt;img src="/images/EKS-seismic.png" alt="EKS seismic inversion"&gt;
+    &lt;/div&gt;
+    &lt;div class="panel-footer"&gt;
+        Example results of the extended kitchen sinks (&lt;span class="caps"&gt;EKS&lt;/span&gt;) algorithm on an
+        interpreted seismic inversion problem, where we wish to infer the below
+        ground structure of the Earth from sound wave reflection times. The
+        inferred rock-type layer boundaries (left) and seismic velocities
+        (right) are shown in …&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Dan Steinberg</dc:creator><pubDate>Thu, 01 Jan 2015 00:00:00 +1100</pubDate><guid isPermaLink="false">tag:None,2015-01-01:/extended-unscented-kitchen-sinks.html</guid><category>Projects</category></item><item><title>Nonparametric Bayesian Inverse Problems</title><link>/bayesian-inverse-problems.html</link><description>&lt;h3&gt;Nonparametric Bayesian Inverse&amp;nbsp;Problems&lt;/h3&gt;
+&lt;div class="col-sm-6 col-md-6" style="margin-left: -15px;"&gt;
+&lt;div class="panel panel-default"&gt;
+    &lt;div class="panel-body"&gt;
+        &lt;img src="/images/ugp-sign.png" alt="UGP signum test"&gt;
+    &lt;/div&gt;
+    &lt;div class="panel-footer"&gt;
+        Example of learning the unscented Gaussian process (&lt;span class="caps"&gt;UGP&lt;/span&gt;) with a
+        non-differentiable nonlinear function (forward model) in the likelihood
+        - a polynomial with one term in a signum function. Here only the black
+        dots are seen by the algorithm, and the nonlinear function transforming
+        the blue line to …&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Dan Steinberg</dc:creator><pubDate>Wed, 01 Jan 2014 00:00:00 +1100</pubDate><guid isPermaLink="false">tag:None,2014-01-01:/bayesian-inverse-problems.html</guid><category>Projects</category></item><item><title>Unsupervised Scene “Understanding”</title><link>/scene-understanding.html</link><description>&lt;h3&gt;Unsupervised Scene&amp;nbsp;&amp;#8220;Understanding&amp;#8221;&lt;/h3&gt;
+&lt;div&gt;
+    &lt;div class="col-sm-4 col-md-3" style="margin-left: -15px;"&gt;
+    &lt;div class="panel panel-default"&gt;
+        &lt;div class="panel-body"&gt;
+            &lt;img src="/images/MSRC_im_ex.jpg" alt="MSRC clusters" /&gt;
+        &lt;/div&gt;
+        &lt;div class="panel-footer"&gt;
+            Sample images belonging to image clusters found by an algorithm
+            that can use both whole-image features and distributions of objects
+            to describe images. The image clusters are shown row-wise.
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="col-sm-4 col-md-3" style="margin-left: -15px; margin-right: 0px;"&gt;
+    &lt;div class="panel panel-default"&gt;
+        &lt;div class="panel-body"&gt;
+            &lt;img src="/images/MSRC_seg_ex.jpg" alt="MSRC segments" /&gt;
+        &lt;/div&gt;
+        &lt;div class="panel-footer"&gt;
+            The corresponding learned segment clusters to the images in the
+            previous figure. The composition and proportions of these …&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Dan Steinberg</dc:creator><pubDate>Tue, 01 Jan 2013 00:00:00 +1100</pubDate><guid isPermaLink="false">tag:None,2013-01-01:/scene-understanding.html</guid><category>Projects</category></item><item><title>Clustering Images Over Many Datasets</title><link>/clustering-images-albums.html</link><description>&lt;h3&gt;Clustering Images Over Many&amp;nbsp;Datasets&lt;/h3&gt;
+&lt;p&gt;Large image collections are frequently partitioned into distinct but related
+groups, such as photo albums from distinct environments that contain similar
+scenes. For example, a hiking holiday album may contain many images of forests
+and maybe a few villages. Whereas a conference trip album may …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Dan Steinberg</dc:creator><pubDate>Sun, 01 Jan 2012 00:00:00 +1100</pubDate><guid isPermaLink="false">tag:None,2012-01-01:/clustering-images-albums.html</guid><category>Projects</category></item><item><title>Clustering Images of the Seafloor</title><link>/clustering-seafloor.html</link><description>&lt;h3&gt;Clustering Images of the&amp;nbsp;Seafloor&lt;/h3&gt;
+&lt;p&gt;I have applied a Bayesian non-parametric algorithm, the variational Dirichlet
+process (with Gaussian clusters), to clustering large quantities of seafloor
+imagery (obtained from an autonomous underwater vehicle or &lt;span class="caps"&gt;AUV&lt;/span&gt;) in an
+unsupervised manner. The algorithm has the attractive property that it does not
+require knowledge …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Dan Steinberg</dc:creator><pubDate>Sat, 01 Jan 2011 00:00:00 +1100</pubDate><guid isPermaLink="false">tag:None,2011-01-01:/clustering-seafloor.html</guid><category>Projects</category></item></channel></rss>

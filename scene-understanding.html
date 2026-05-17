@@ -2,7 +2,7 @@
 <html lang="en"
 >
 <head>
-    <title>Creating this site - Dan Steinberg</title>
+    <title>Unsupervised Scene “Understanding” - Dan Steinberg</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -11,10 +11,10 @@
 
     <link href="/images/favicon.ico" rel="icon">
 
-<link rel="canonical" href="/creating-this-site.html">
+<link rel="canonical" href="/scene-understanding.html">
 
         <meta name="author" content="Dan Steinberg" />
-        <meta name="description" content="This is a test page for now, but it will maybe document this websites creation: Pelican Pelican-Bootstrap3 Bootswatch Cyborg Pelican-Bibtex" />
+        <meta name="description" content="Unsupervised Scene “Understanding” Sample images belonging to image clusters found by an algorithm that can use both whole-image features and distributions of objects to describe images. The image clusters are shown row-wise. The corresponding learned segment clusters to the images in the previous figure. The composition and proportions of these …" />
 
 
 
@@ -31,9 +31,9 @@
     <!-- Google Analytics (best in HEAD) -->
 
     <!-- Google Fonts -->
-    <link 
-        href="https://fonts.googleapis.com/css?family=Lato&display=swap"
-        rel="stylesheet"> 
+    <link
+        href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,300;1,8..60,400&display=swap"
+        rel="stylesheet">
 </head>
 <body>
 
@@ -60,9 +60,6 @@ Dan Steinberg            </a>
                          <li><a href="/pages/research-projects.html">
                              Research +&nbsp;Projects
                           </a></li>
-                        <li class="active">
-                            <a href="/category/misc.html">Misc</a>
-                        </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="/archives.html"><i class="fa fa-th-list"></i><span class="icon-label">Archives</span></a></li>
@@ -74,18 +71,12 @@ Dan Steinberg            </a>
 
 <div class="container">
     <div class="row">
-        <div class="col-sm-9 col-md-10">
+        <div class="col-sm-8 col-md-9">
 
     <section id="content">
         <article>
             <header class="page-header">
-                <h1>
-                    <a href="/creating-this-site.html"
-                       rel="bookmark"
-                       title="Permalink to Creating this site">
-                        Creating this&nbsp;site
-                    </a>
-                </h1>
+                <h1>Unsupervised Scene&nbsp;&#8220;Understanding&#8221;</h1>
             </header>
             <div class="entry-content">
                 <div class="panel">
@@ -93,7 +84,7 @@ Dan Steinberg            </a>
 <footer class="post-info">
     <span class="label label-default">Date</span>
     <span class="published">
-        <i class="fa fa-calendar"></i><time datetime="2014-08-24T00:00:00+10:00"> Sun 24 August 2014</time>
+        <i class="fa fa-calendar"></i><time datetime="2013-01-01T00:00:00+11:00"> Tue 01 January 2013</time>
     </span>
 
 
@@ -101,20 +92,69 @@ Dan Steinberg            </a>
     
 </footer><!-- /.post-info -->                    </div>
                 </div>
-                <p>This is a test page for now, but it will maybe document this websites&nbsp;creation:</p>
-<ul>
-<li>Pelican</li>
-<li>Pelican-Bootstrap3</li>
-<li>Bootswatch&nbsp;Cyborg</li>
-<li>Pelican-Bibtex</li>
-</ul>
+                <h3>Unsupervised Scene&nbsp;&#8220;Understanding&#8221;</h3>
+<div>
+    <div class="col-sm-4 col-md-3" style="margin-left: -15px;">
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <img src="/images/MSRC_im_ex.jpg" alt="MSRC clusters" />
+        </div>
+        <div class="panel-footer">
+            Sample images belonging to image clusters found by an algorithm
+            that can use both whole-image features and distributions of objects
+            to describe images. The image clusters are shown row-wise.
+        </div>
+    </div>
+    </div>
+    <div class="col-sm-4 col-md-3" style="margin-left: -15px; margin-right: 0px;">
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <img src="/images/MSRC_seg_ex.jpg" alt="MSRC segments" />
+        </div>
+        <div class="panel-footer">
+            The corresponding learned segment clusters to the images in the
+            previous figure. The composition and proportions of these segment
+            clusters (coloured regions) are fairly consistent within an image
+            cluster.
+        </div>
+    </div>
+    </div>
+</div>
+
+<p>For very large scientific datasets with many image classes and objects,
+producing the ground-truth data for supervised (trained) algorithms can
+represent a substantial, and potentially expensive, human effort. In these
+situations there is scope for the use of unsupervised approaches, such as
+clustering, which can model collections of images and automatically summarise
+their content without human&nbsp;training.</p>
+<p>To explore how modelling context effects clustering results, I derived several
+new algorithms that simultaneously cluster images and segments (super-pixels)
+within images. These algorithms also model collections of photos such as photo
+albums. Images are defined by whole-scene descriptors <em>and</em> the distribution of
+&#8220;objects&#8221; (segment clusters) within them. The images and segments are clustered
+using this joint representation, which is also more interpretable by people.
+The intuition behind this approach is that by knowing something about the type
+of scene (image cluster), object detection (segment clustering) can be
+improved. That is, we are likely to find trees in a forest. Additionally, by
+knowing about the distribution and co-occurrence of objects in an image, we
+have a better idea of the type of scene (cows and grass most likely make a
+rural&nbsp;scene).</p>
+<p>These algorithms for unsupervised scene understanding outperform other
+unsupervised algorithms for segment and scene clustering. This is because of
+how they model context. These algorithms were even found to be competitive with
+state of the art supervised and semi-supervised approaches to scene
+understanding, as well as being scalable to larger datasets. See
+my <a href="/docs/Steinberg_ICCV2013_MCM.pdf"><span class="caps">ICCV</span> paper</a>,
+<a href="/docs/CVIU_scene.pdf"><span class="caps">CVIU</span> article</a> and my <a href="/docs/Thesis.pdf">thesis (ch. 5 <span class="amp">&amp;</span>
+6)</a> for more&nbsp;information.</p>
+<div style="clear: both"></div>
             </div>
             <!-- /.entry-content -->
         </article>
     </section>
 
         </div>
-        <div class="col-sm-3 col-md-2 side-content">
+        <div class="col-sm-4 col-md-3 side-content">
             <div id="aboutme" class="entry-content">
 <p>
 <img width="100%" class="img-rounded floatcenter" src="../images/profile_photo.jpg"/>
@@ -155,7 +195,7 @@ Dan Steinberg            </a>
    <div class="container">
       <hr>
       <div class="row">
-         <div class="col-xs-10">&copy; 2025 Dan Steinberg
+         <div class="col-xs-10">&copy; 2026 Dan Steinberg
             &middot; Powered by <a href="https://github.com/DandyDev/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
             <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
             <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>         </div>

@@ -1,6 +1,6 @@
 html, body {
-    font-family: "Lato";
-    font-weight: normal;
+    font-family: "Source Serif 4", Georgia, serif;
+    font-weight: 300;
     font-size: 13pt;
     scroll-behavior: smooth;
 }
@@ -9,9 +9,17 @@ body {
     padding-top: 70px;
 }
 
+.container {
+    max-width: 960px;
+}
+
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-family: "Lato";
-    font-weight: lighter;
+    font-family: "Source Serif 4", Georgia, serif;
+    font-weight: 400;
+}
+
+h3 a {
+    white-space: nowrap;
 }
 
 .navbar-brand {
@@ -65,11 +73,13 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 .side-content {
-    border-left: solid #282828 1px;
+    border-left: solid #444 1px;
+    padding-top: 12px;
 }
 
 #aboutme {
     font-size: small;
+    padding-bottom: 8px;
 }
 
 #sidebar {
@@ -103,12 +113,10 @@ a, a:hover {
 
 .entry-content a {
     text-decoration: none;
-    /* border-bottom: 1px dotted; */
 }
 
 .entry-content a:hover {
     text-decoration: none;
-    border-bottom: 1px solid;
 }
 
 .entry-content img {
@@ -123,6 +131,19 @@ a, a:hover {
 
 .entry-content p {
     text-align: left;
+}
+
+#sidebar .list-group-item a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    letter-spacing: 0.02em;
+}
+
+#sidebar .list-group-item a i {
+    width: 20px;
+    text-align: center;
+    font-size: 1.1em;
 }
 
 .entry-content ul {
@@ -186,16 +207,71 @@ figure.floatcenter, .align-center {
     border-radius: inherit;
 }
 
+.archive-row {
+    display: flex;
+    align-items: baseline;
+    gap: 16px;
+    margin-bottom: 6px;
+}
+
 .categories-timestamp {
     color: #AAAAAA;
     font-size: 0.9em;
-    margin-right: 10px;
+    white-space: nowrap;
+    flex-shrink: 0;
 }
 
 .tagcloud li {
     padding: 0px;
 }
 
+.biblist {
+    list-style: none;
+    padding-left: 0;
+}
+
 .biblist li {
     margin-bottom: 10px;
+}
+
+.panel.panel-default {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.panel.panel-default .panel-body {
+    padding: 0;
+}
+
+.panel.panel-default img {
+    border-radius: 6px;
+    opacity: 0.9;
+    display: block;
+    width: 100%;
+}
+
+.research-entry {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    margin-bottom: 8px;
+}
+
+.research-thumb {
+    flex-shrink: 0;
+    width: 150px;
+}
+
+.research-thumb img {
+    border-radius: 6px;
+    width: 100%;
+    display: block;
+}
+
+.research-body {
+    flex: 1;
+    min-width: 0;
 }

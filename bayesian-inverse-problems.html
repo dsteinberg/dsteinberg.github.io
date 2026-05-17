@@ -2,7 +2,7 @@
 <html lang="en"
 >
 <head>
-    <title>About - Dan Steinberg</title>
+    <title>Nonparametric Bayesian Inverse Problems - Dan Steinberg</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -11,10 +11,10 @@
 
     <link href="/images/favicon.ico" rel="icon">
 
-<link rel="canonical" href="/index.html">
+<link rel="canonical" href="/bayesian-inverse-problems.html">
 
         <meta name="author" content="Dan Steinberg" />
-        <meta name="description" content="I am currently a team leader at CSIRO, where we are developing probabilistic and generative machine learning methods for scientific discovery and experimental design. My current work centres on two threads: generative Bayesian optimisation for protein and molecular engineering, and causal inference and discovery from observational data. On the generative …" />
+        <meta name="description" content="Nonparametric Bayesian Inverse Problems Example of learning the unscented Gaussian process (UGP) with a non-differentiable nonlinear function (forward model) in the likelihood - a polynomial with one term in a signum function. Here only the black dots are seen by the algorithm, and the nonlinear function transforming the blue line to …" />
 
 
 
@@ -51,7 +51,7 @@ Dan Steinberg            </a>
         </div>
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav">
-                         <li class="active"><a href="/index.html">
+                         <li><a href="/index.html">
                              About
                           </a></li>
                          <li><a href="/pages/publications.html">
@@ -73,50 +73,79 @@ Dan Steinberg            </a>
     <div class="row">
         <div class="col-sm-8 col-md-9">
 
-    <section id="content" class="body">
-        
-        <div class="entry-content">
-            <p>I am currently a team leader at <a href="https://www.csiro.au/"><span class="caps">CSIRO</span></a>, where we are
-developing probabilistic and generative machine learning methods for scientific
-discovery and experimental design. My current work centres on two threads:
-generative Bayesian optimisation for protein and molecular engineering, and
-causal inference and discovery from observational&nbsp;data.</p>
-<p>On the generative optimisation side, my colleagues and I introduced
-<a href="https://openreview.net/forum?id=1vrpdV9U3i">Variational Search Distributions</a>
-(<span class="caps">VSD</span>), which frames active generation of rare, high-fitness designs as
-variational inference over a generative prior. We extended this to
-multi-objective settings with <a href="https://openreview.net/forum?id=jNQ40aw5qL">Amortised Active Generation of Pareto
-Sets</a>, and to a reward-model-free
-formulation in <a href="https://openreview.net/forum?id=GBWkRRJrdu">Generative Bayesian
-Optimisation</a>, where a generative
-model itself plays the role of an acquisition function. These methods are being
-applied to real protein engineering tasks in collaboration with <span class="caps">CSIRO</span>&#8217;s
-synthetic biology&nbsp;groups.</p>
-<p>On the causal side, I led a series of observational studies for an Australian
-school jurisdiction, quantifying how aspects of the school system and student
-well-being affect educational outcomes, including a <a href="https://www.nature.com/articles/s41598-022-05780-0">study linking youth
-well-being to academic success</a>
-published in Scientific Reports. More
-recently my work has moved toward causal discovery — learning causal graph
-structure from data. <a href="https://arxiv.org/abs/2602.01483">CaPE</a> addresses the
-under-determination of <span class="caps">DAG</span> estimation by bringing a domain expert into the loop
-via Bayesian active learning, and <a href="https://arxiv.org/abs/2605.07204">Arrow</a> is
-a transformer-based foundation model for zero-shot causal discovery that
-requires no task-specific&nbsp;training.</p>
-<p>Earlier work includes large-scale spatial inference for natural-science
-problems — soil mapping, geochemistry, and depth-to-basement prediction — using
-the <a href="https://github.com/data61/landshark">Landshark</a> and
-<a href="https://github.com/GeoscienceAustralia/uncover-ml">Uncover-<span class="caps">ML</span></a> pipelines, and
-unsupervised probabilistic models for interpreting seafloor imagery collected
-by autonomous underwater vehicles&nbsp;(AUVs).</p>
-<p>I finished my PhD in July 2013 with the <a href="http://marine.acfr.usyd.edu.au/">marine systems
-group</a> at the <a href="http://www.acfr.usyd.edu.au">Australian Centre for Field
-Robotics</a>, which is in the <a href="http://www.sydney.edu.au">University of
-Sydney</a>. I have a Bachelor of Engineering
-(Mechatronics, honours 1) and Bachelor of Commerce (Finance), also from the
-University of&nbsp;Sydney.</p>
-        </div>
+    <section id="content">
+        <article>
+            <header class="page-header">
+                <h1>Nonparametric Bayesian Inverse&nbsp;Problems</h1>
+            </header>
+            <div class="entry-content">
+                <div class="panel">
+                    <div class="panel-body">
+<footer class="post-info">
+    <span class="label label-default">Date</span>
+    <span class="published">
+        <i class="fa fa-calendar"></i><time datetime="2014-01-01T00:00:00+11:00"> Wed 01 January 2014</time>
+    </span>
+
+
+
+    
+</footer><!-- /.post-info -->                    </div>
+                </div>
+                <h3>Nonparametric Bayesian Inverse&nbsp;Problems</h3>
+<div class="col-sm-6 col-md-6" style="margin-left: -15px;">
+<div class="panel panel-default">
+    <div class="panel-body">
+        <img src="/images/ugp-sign.png" alt="UGP signum test">
+    </div>
+    <div class="panel-footer">
+        Example of learning the unscented Gaussian process (<span class="caps">UGP</span>) with a
+        non-differentiable nonlinear function (forward model) in the likelihood
+        - a polynomial with one term in a signum function. Here only the black
+        dots are seen by the algorithm, and the nonlinear function transforming
+        the blue line to the green is known, but not its inverse. The aim is to
+        estimate the latent function (blue line) from the black dots, without
+        knowing the inverse function. In this figure we show the predictive
+        distributions of the latent function (red dashed line and standard
+        deviation bounds) and of the observations (green line and standard
+        deviation bounds).
+    </div>
+</div>
+</div>
+
+<p>Nonlinear inversion problems, where we wish to infer the latent inputs to a
+system given observations of its output and the system&#8217;s forward-model, have a
+long history in the natural sciences, dynamical modeling and estimation. An
+example is the robot-arm inverse kinematics problem, where we wish to infer how
+to drive the robot&#8217;s joints (i.e. joint torques) in order to place the
+end-effector in a particular position, given we can measure its position and
+know the forward kinematics of the arm. Most of the existing algorithms either
+estimate the system inputs at a particular point in time like the
+Levenberg-Marquardt algorithm, or in a recursive manner such as the extended
+and unscented Kalman filters (<span class="caps">EKF</span>, <span class="caps">UKF</span>). In many inversion problems we have a
+continuous process; a smooth trajectory of a robot arm for example.
+Non-parametric regression techniques like Gaussian processes seem applicable,
+and have been used in linear inversion&nbsp;problems.</p>
+<p>In this work we present two new methods for inference in Gaussian process (<span class="caps">GP</span>)
+models with general nonlinear likelihoods. Inference is based on a variational
+framework where a Gaussian posterior is assumed and the likelihood is
+linearized about the variational posterior mean using either a Taylor series
+expansion or statistical linearization. We show that the parameter updates
+obtained by these algorithms are equivalent to the state update equations in
+the iterative extended and unscented Kalman filters respectively, hence we
+refer to our algorithms as extended and unscented GPs. The unscented <span class="caps">GP</span> treats
+the likelihood as a &#8216;black-box&#8217; by not requiring its derivative for inference,
+so it also applies to non-differentiable likelihood models. We evaluate the
+performance of our algorithms on a number of synthetic inversion problems and a
+binary classification dataset. See our <a href="http://papers.nips.cc/paper/5455-extended-and-unscented-gaussian-processes"><span class="caps">NIPS</span> <em>spotlight</em>
+paper</a>
+for more&nbsp;details.</p>
+<div style="clear: both"></div>
+            </div>
+            <!-- /.entry-content -->
+        </article>
     </section>
+
         </div>
         <div class="col-sm-4 col-md-3 side-content">
             <div id="aboutme" class="entry-content">
