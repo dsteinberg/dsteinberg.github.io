@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Dan Steinberg</title><link href="http://dsteinberg.github.io/" rel="alternate"></link><link href="http://dsteinberg.github.io/feeds/all.atom.xml" rel="self"></link><id>http://dsteinberg.github.io/</id><updated>2026-01-01T00:00:00+11:00</updated><entry><title>Causal Discovery in the Real World</title><link href="http://dsteinberg.github.io/causal-discovery.html" rel="alternate"></link><published>2026-01-01T00:00:00+11:00</published><updated>2026-01-01T00:00:00+11:00</updated><author><name>Dan Steinberg</name></author><id>tag:dsteinberg.github.io,2026-01-01:/causal-discovery.html</id><summary type="html">&lt;h3&gt;Causal Discovery in the Real&amp;nbsp;World&lt;/h3&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Dan Steinberg</title><link href="https://dsteinberg.github.io/" rel="alternate"></link><link href="https://dsteinberg.github.io/feeds/all.atom.xml" rel="self"></link><id>https://dsteinberg.github.io/</id><updated>2026-01-01T00:00:00+11:00</updated><entry><title>Causal Discovery in the Real World</title><link href="https://dsteinberg.github.io/causal-discovery.html" rel="alternate"></link><published>2026-01-01T00:00:00+11:00</published><updated>2026-01-01T00:00:00+11:00</updated><author><name>Dan Steinberg</name></author><id>tag:dsteinberg.github.io,2026-01-01:/causal-discovery.html</id><summary type="html">&lt;h3&gt;Causal Discovery in the Real&amp;nbsp;World&lt;/h3&gt;
 &lt;p&gt;Inferring causal structure from observational data is a fundamental challenge
 in science and evidence-based decision-making. Most existing methods for
 learning directed acyclic graphs (DAGs) assume that the true causal graph is
@@ -32,11 +32,11 @@ predict graph structure, achieving performance comparable to or better than
 existing methods at a fraction of the computational&amp;nbsp;cost.&lt;/p&gt;
 &lt;p&gt;Together, these works push causal discovery toward practical deployment: CaPE
 by making expert knowledge tractably useful, and Arrow by eliminating the
-computational barrier to applying strong causal priors on new&amp;nbsp;problems.&lt;/p&gt;</content><category term="Projects"></category></entry><entry><title>Active Generation — Generative Models for Black Box Optimisation</title><link href="http://dsteinberg.github.io/active-generation.html" rel="alternate"></link><published>2024-01-01T00:00:00+11:00</published><updated>2024-01-01T00:00:00+11:00</updated><author><name>Dan Steinberg</name></author><id>tag:dsteinberg.github.io,2024-01-01:/active-generation.html</id><summary type="html">&lt;h3&gt;&lt;strong&gt;Active Generation&lt;/strong&gt; - Generative models for black box&amp;nbsp;optimisation&lt;/h3&gt;
+computational barrier to applying strong causal priors on new&amp;nbsp;problems.&lt;/p&gt;</content><category term="Projects"></category></entry><entry><title>Active Generation — Generative Models for Black Box Optimisation</title><link href="https://dsteinberg.github.io/active-generation.html" rel="alternate"></link><published>2024-01-01T00:00:00+11:00</published><updated>2024-01-01T00:00:00+11:00</updated><author><name>Dan Steinberg</name></author><id>tag:dsteinberg.github.io,2024-01-01:/active-generation.html</id><summary type="html">&lt;h3&gt;&lt;strong&gt;Active Generation&lt;/strong&gt; - Generative models for black box&amp;nbsp;optimisation&lt;/h3&gt;
 &lt;div class="col-sm-6 col-md-6" style="margin-left: -15px;"&gt;
 &lt;div class="panel panel-default"&gt;
     &lt;div class="panel-body"&gt;
-        &lt;img src="http://dsteinberg.github.io/images/active_generation.png" alt="Active generation"&gt;
+        &lt;img src="https://dsteinberg.github.io/images/active_generation.png" alt="Active generation"&gt;
     &lt;/div&gt;
     &lt;div class="panel-footer"&gt;
         Active generation as implemented by variational search distributions (&lt;span class="caps"&gt;VSD&lt;/span&gt;).
@@ -51,7 +51,7 @@ objectives. We …&lt;/p&gt;</summary><content type="html">&lt;h3&gt;&lt;strong&
 &lt;div class="col-sm-6 col-md-6" style="margin-left: -15px;"&gt;
 &lt;div class="panel panel-default"&gt;
     &lt;div class="panel-body"&gt;
-        &lt;img src="http://dsteinberg.github.io/images/active_generation.png" alt="Active generation"&gt;
+        &lt;img src="https://dsteinberg.github.io/images/active_generation.png" alt="Active generation"&gt;
     &lt;/div&gt;
     &lt;div class="panel-footer"&gt;
         Active generation as implemented by variational search distributions (&lt;span class="caps"&gt;VSD&lt;/span&gt;).
@@ -85,11 +85,11 @@ perspective&lt;/a&gt;. Using our
 theoretical framework we present propagational convolutional neural networks
 (&lt;span class="caps"&gt;PCNN&lt;/span&gt;), for which we derive theoretical guarantees on the generalization and
 convergence properties for protein property&amp;nbsp;prediction.&lt;/p&gt;
-&lt;div style="clear: both;"&gt;&lt;/div&gt;</content><category term="Projects"></category></entry><entry><title>Causal Inference — Machine Learning for Evidence-Based Policy</title><link href="http://dsteinberg.github.io/causal-inference.html" rel="alternate"></link><published>2022-01-01T00:00:00+11:00</published><updated>2022-01-01T00:00:00+11:00</updated><author><name>Dan Steinberg</name></author><id>tag:dsteinberg.github.io,2022-01-01:/causal-inference.html</id><summary type="html">&lt;h3&gt;&lt;strong&gt;Causal Inference&lt;/strong&gt; - Machine learning as a tool for evidence-based&amp;nbsp;policy&lt;/h3&gt;
+&lt;div style="clear: both;"&gt;&lt;/div&gt;</content><category term="Projects"></category></entry><entry><title>Causal Inference — Machine Learning for Evidence-Based Policy</title><link href="https://dsteinberg.github.io/causal-inference.html" rel="alternate"></link><published>2022-01-01T00:00:00+11:00</published><updated>2022-01-01T00:00:00+11:00</updated><author><name>Dan Steinberg</name></author><id>tag:dsteinberg.github.io,2022-01-01:/causal-inference.html</id><summary type="html">&lt;h3&gt;&lt;strong&gt;Causal Inference&lt;/strong&gt; - Machine learning as a tool for evidence-based&amp;nbsp;policy&lt;/h3&gt;
 &lt;div class="col-sm-6 col-md-6" style="margin-left: -15px;"&gt;
 &lt;div class="panel panel-default"&gt;
     &lt;div class="panel-body"&gt;
-        &lt;img src="http://dsteinberg.github.io/images/causal-dag.png" alt="Simple causal diagram"&gt;
+        &lt;img src="https://dsteinberg.github.io/images/causal-dag.png" alt="Simple causal diagram"&gt;
     &lt;/div&gt;
     &lt;div class="panel-footer"&gt;
         Graphical representation of a relationships assumed in a simple
@@ -104,7 +104,7 @@ capture complex relationships in the …&lt;/p&gt;</summary><content type="html"
 &lt;div class="col-sm-6 col-md-6" style="margin-left: -15px;"&gt;
 &lt;div class="panel panel-default"&gt;
     &lt;div class="panel-body"&gt;
-        &lt;img src="http://dsteinberg.github.io/images/causal-dag.png" alt="Simple causal diagram"&gt;
+        &lt;img src="https://dsteinberg.github.io/images/causal-dag.png" alt="Simple causal diagram"&gt;
     &lt;/div&gt;
     &lt;div class="panel-footer"&gt;
         Graphical representation of a relationships assumed in a simple
@@ -127,11 +127,11 @@ well-being to academic success&lt;/a&gt;.
 Reporting non-linear causal effects requires a new methodology, software for
 which we developed and can be found
 &lt;a href="https://github.com/gradientinstitute/causal-inspection"&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;div style="clear: both;"&gt;&lt;/div&gt;</content><category term="Projects"></category></entry><entry><title>Algorithmic Fairness — Fair Regression Algorithms</title><link href="http://dsteinberg.github.io/algorithmic-fairness.html" rel="alternate"></link><published>2020-01-01T00:00:00+11:00</published><updated>2020-01-01T00:00:00+11:00</updated><author><name>Dan Steinberg</name></author><id>tag:dsteinberg.github.io,2020-01-01:/algorithmic-fairness.html</id><summary type="html">&lt;h3&gt;&lt;strong&gt;Algorithmic Fairness&lt;/strong&gt; - Fair Regression&amp;nbsp;Algorithms&lt;/h3&gt;
+&lt;div style="clear: both;"&gt;&lt;/div&gt;</content><category term="Projects"></category></entry><entry><title>Algorithmic Fairness — Fair Regression Algorithms</title><link href="https://dsteinberg.github.io/algorithmic-fairness.html" rel="alternate"></link><published>2020-01-01T00:00:00+11:00</published><updated>2020-01-01T00:00:00+11:00</updated><author><name>Dan Steinberg</name></author><id>tag:dsteinberg.github.io,2020-01-01:/algorithmic-fairness.html</id><summary type="html">&lt;h3&gt;&lt;strong&gt;Algorithmic Fairness&lt;/strong&gt; - Fair Regression&amp;nbsp;Algorithms&lt;/h3&gt;
 &lt;div class="col-sm-5 col-md-5" style="margin-left: -15px;"&gt;
 &lt;div class="panel panel-default"&gt;
     &lt;div class="panel-body"&gt;
-        &lt;img src="http://dsteinberg.github.io/images/variance.png" alt="Unfairness toy example"&gt;
+        &lt;img src="https://dsteinberg.github.io/images/variance.png" alt="Unfairness toy example"&gt;
     &lt;/div&gt;
     &lt;div class="panel-footer"&gt;
         A simulated dataset depicting an unfair prediction under the
@@ -147,7 +147,7 @@ from …&lt;/p&gt;</summary><content type="html">&lt;h3&gt;&lt;strong&gt;Algorit
 &lt;div class="col-sm-5 col-md-5" style="margin-left: -15px;"&gt;
 &lt;div class="panel panel-default"&gt;
     &lt;div class="panel-body"&gt;
-        &lt;img src="http://dsteinberg.github.io/images/variance.png" alt="Unfairness toy example"&gt;
+        &lt;img src="https://dsteinberg.github.io/images/variance.png" alt="Unfairness toy example"&gt;
     &lt;/div&gt;
     &lt;div class="panel-footer"&gt;
         A simulated dataset depicting an unfair prediction under the
@@ -169,11 +169,11 @@ Similarly, adjusting the predictions of a regressor is more complex than doing
 so for a classifier, and so our research has been targeting these areas. Here
 you can read more about &lt;a href="https://arxiv.org/abs/2001.06089"&gt;measurement&lt;/a&gt;, and
 &lt;a href="https://arxiv.org/abs/2002.06200"&gt;adjusting&lt;/a&gt; regression&amp;nbsp;algorithms.&lt;/p&gt;
-&lt;div style="clear: both;"&gt;&lt;/div&gt;</content><category term="Projects"></category></entry><entry><title>Landshark — Large-Scale Spatial Inference with TensorFlow</title><link href="http://dsteinberg.github.io/landshark.html" rel="alternate"></link><published>2018-01-01T00:00:00+11:00</published><updated>2018-01-01T00:00:00+11:00</updated><author><name>Dan Steinberg</name></author><id>tag:dsteinberg.github.io,2018-01-01:/landshark.html</id><summary type="html">&lt;h3&gt;&lt;strong&gt;Landshark&lt;/strong&gt; - Large-scale Spatial Inference with&amp;nbsp;Tensorflow&lt;/h3&gt;
+&lt;div style="clear: both;"&gt;&lt;/div&gt;</content><category term="Projects"></category></entry><entry><title>Landshark — Large-Scale Spatial Inference with TensorFlow</title><link href="https://dsteinberg.github.io/landshark.html" rel="alternate"></link><published>2018-01-01T00:00:00+11:00</published><updated>2018-01-01T00:00:00+11:00</updated><author><name>Dan Steinberg</name></author><id>tag:dsteinberg.github.io,2018-01-01:/landshark.html</id><summary type="html">&lt;h3&gt;&lt;strong&gt;Landshark&lt;/strong&gt; - Large-scale Spatial Inference with&amp;nbsp;Tensorflow&lt;/h3&gt;
 &lt;div class="col-sm-8 col-md-8" style="margin-left: -15px;"&gt;
 &lt;div class="panel panel-default"&gt;
     &lt;div class="panel-body"&gt;
-        &lt;img src="http://dsteinberg.github.io/images/landshark.jpg" alt="Predictive entropy"&gt;
+        &lt;img src="https://dsteinberg.github.io/images/landshark.jpg" alt="Predictive entropy"&gt;
     &lt;/div&gt;
     &lt;div class="panel-footer"&gt;
         The predictive entropy (uncertainty) of the concentration of an element
@@ -188,7 +188,7 @@ has a set …&lt;/p&gt;</summary><content type="html">&lt;h3&gt;&lt;strong&gt;La
 &lt;div class="col-sm-8 col-md-8" style="margin-left: -15px;"&gt;
 &lt;div class="panel panel-default"&gt;
     &lt;div class="panel-body"&gt;
-        &lt;img src="http://dsteinberg.github.io/images/landshark.jpg" alt="Predictive entropy"&gt;
+        &lt;img src="https://dsteinberg.github.io/images/landshark.jpg" alt="Predictive entropy"&gt;
     &lt;/div&gt;
     &lt;div class="panel-footer"&gt;
         The predictive entropy (uncertainty) of the concentration of an element
@@ -210,11 +210,11 @@ training data itself will not fit in memory, and must be streamed to a
 minibatch stochastic gradient descent algorithm for model&amp;nbsp;learning.&lt;/p&gt;
 &lt;p&gt;Please see the &lt;a href="https://github.com/data61/landshark"&gt;Landshark project page&lt;/a&gt;
 for more&amp;nbsp;information.&lt;/p&gt;
-&lt;div style="clear: both;"&gt;&lt;/div&gt;</content><category term="Projects"></category></entry><entry><title>Aboleth — A TensorFlow Framework for Bayesian Deep Learning</title><link href="http://dsteinberg.github.io/aboleth.html" rel="alternate"></link><published>2017-01-01T00:00:00+11:00</published><updated>2017-01-01T00:00:00+11:00</updated><author><name>Dan Steinberg</name></author><id>tag:dsteinberg.github.io,2017-01-01:/aboleth.html</id><summary type="html">&lt;h3&gt;&lt;strong&gt;Aboleth&lt;/strong&gt; - A TensorFlow Framework for Bayesian Deep&amp;nbsp;Learning&lt;/h3&gt;
+&lt;div style="clear: both;"&gt;&lt;/div&gt;</content><category term="Projects"></category></entry><entry><title>Aboleth — A TensorFlow Framework for Bayesian Deep Learning</title><link href="https://dsteinberg.github.io/aboleth.html" rel="alternate"></link><published>2017-01-01T00:00:00+11:00</published><updated>2017-01-01T00:00:00+11:00</updated><author><name>Dan Steinberg</name></author><id>tag:dsteinberg.github.io,2017-01-01:/aboleth.html</id><summary type="html">&lt;h3&gt;&lt;strong&gt;Aboleth&lt;/strong&gt; - A TensorFlow Framework for Bayesian Deep&amp;nbsp;Learning&lt;/h3&gt;
 &lt;div class="col-sm-7 col-md-7" style="margin-left: -15px;"&gt;
 &lt;div class="panel panel-default"&gt;
     &lt;div class="panel-body"&gt;
-        &lt;img src="http://dsteinberg.github.io/images/bayesnn.png" alt="A Bayesian Neural Net"&gt;
+        &lt;img src="https://dsteinberg.github.io/images/bayesnn.png" alt="A Bayesian Neural Net"&gt;
     &lt;/div&gt;
     &lt;div class="panel-footer"&gt;
         Depiction of a Bayesian Neural Net that is easily constructed using
@@ -229,7 +229,7 @@ for Bayesian deep learning and Gaussian process&amp;nbsp;approximation.&lt;/p&gt
 &lt;div class="col-sm-7 col-md-7" style="margin-left: -15px;"&gt;
 &lt;div class="panel panel-default"&gt;
     &lt;div class="panel-body"&gt;
-        &lt;img src="http://dsteinberg.github.io/images/bayesnn.png" alt="A Bayesian Neural Net"&gt;
+        &lt;img src="https://dsteinberg.github.io/images/bayesnn.png" alt="A Bayesian Neural Net"&gt;
     &lt;/div&gt;
     &lt;div class="panel-footer"&gt;
         Depiction of a Bayesian Neural Net that is easily constructed using
@@ -247,7 +247,7 @@ TensorFlow, so you can still assign parts of the computational graph to
 different hardware, use your own data feeds/queues, and manage your own
 sessions&amp;nbsp;etc.&lt;/p&gt;
 &lt;p&gt;The project page is on &lt;a href="https://github.com/data61/aboleth"&gt;github&lt;/a&gt;.&lt;/p&gt;
-&lt;div style="clear: both;"&gt;&lt;/div&gt;</content><category term="Projects"></category></entry><entry><title>Revrand — Scalable Bayesian Generalised Linear Models</title><link href="http://dsteinberg.github.io/revrand.html" rel="alternate"></link><published>2016-01-01T00:00:00+11:00</published><updated>2016-01-01T00:00:00+11:00</updated><author><name>Dan Steinberg</name></author><id>tag:dsteinberg.github.io,2016-01-01:/revrand.html</id><summary type="html">&lt;h3&gt;&lt;strong&gt;Revrand&lt;/strong&gt; - Scalable Bayesian Generalised Linear&amp;nbsp;Models&lt;/h3&gt;
+&lt;div style="clear: both;"&gt;&lt;/div&gt;</content><category term="Projects"></category></entry><entry><title>Revrand — Scalable Bayesian Generalised Linear Models</title><link href="https://dsteinberg.github.io/revrand.html" rel="alternate"></link><published>2016-01-01T00:00:00+11:00</published><updated>2016-01-01T00:00:00+11:00</updated><author><name>Dan Steinberg</name></author><id>tag:dsteinberg.github.io,2016-01-01:/revrand.html</id><summary type="html">&lt;h3&gt;&lt;strong&gt;Revrand&lt;/strong&gt; - Scalable Bayesian Generalised Linear&amp;nbsp;Models&lt;/h3&gt;
 &lt;div&gt;
     &lt;div class="col-sm-5 col-md-4" style="margin-left: -15px;"&gt;
     &lt;div class="panel panel-default"&gt;
@@ -319,11 +319,11 @@ generalised linear models. A few features of this library&amp;nbsp;are:&lt;/p&gt
   large scale learning using stochastic gradients (&lt;span class="caps"&gt;ADADELTA&lt;/span&gt;, Adam and&amp;nbsp;others).&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;The project page is on &lt;a href="https://github.com/NICTA/revrand"&gt;github&lt;/a&gt;.&lt;/p&gt;
-&lt;div style="clear: both;"&gt;&lt;/div&gt;</content><category term="Projects"></category></entry><entry><title>The Impact of Computerisation and Automation on Future Employment</title><link href="http://dsteinberg.github.io/job-automation.html" rel="alternate"></link><published>2015-06-01T00:00:00+10:00</published><updated>2015-06-01T00:00:00+10:00</updated><author><name>Dan Steinberg</name></author><id>tag:dsteinberg.github.io,2015-06-01:/job-automation.html</id><summary type="html">&lt;h3&gt;The impact of computerisation and automation on future&amp;nbsp;employment&lt;/h3&gt;
+&lt;div style="clear: both;"&gt;&lt;/div&gt;</content><category term="Projects"></category></entry><entry><title>The Impact of Computerisation and Automation on Future Employment</title><link href="https://dsteinberg.github.io/job-automation.html" rel="alternate"></link><published>2015-06-01T00:00:00+10:00</published><updated>2015-06-01T00:00:00+10:00</updated><author><name>Dan Steinberg</name></author><id>tag:dsteinberg.github.io,2015-06-01:/job-automation.html</id><summary type="html">&lt;h3&gt;The impact of computerisation and automation on future&amp;nbsp;employment&lt;/h3&gt;
 &lt;div class="col-sm-6 col-md-6" style="margin-left: -15px;"&gt;
 &lt;div class="panel panel-default"&gt;
     &lt;div class="panel-body"&gt;
-        &lt;img src="http://dsteinberg.github.io/images/job-automation.jpg" alt="LGA probability of job loss."&gt;
+        &lt;img src="https://dsteinberg.github.io/images/job-automation.jpg" alt="LGA probability of job loss."&gt;
     &lt;/div&gt;
     &lt;div class="panel-footer"&gt;
         Weighted probability of job loss through computerisation and automation
@@ -337,7 +337,7 @@ to computerisation and automation over the next 10 to 15 years. The methodology 
 &lt;div class="col-sm-6 col-md-6" style="margin-left: -15px;"&gt;
 &lt;div class="panel panel-default"&gt;
     &lt;div class="panel-body"&gt;
-        &lt;img src="http://dsteinberg.github.io/images/job-automation.jpg" alt="LGA probability of job loss."&gt;
+        &lt;img src="https://dsteinberg.github.io/images/job-automation.jpg" alt="LGA probability of job loss."&gt;
     &lt;/div&gt;
     &lt;div class="panel-footer"&gt;
         Weighted probability of job loss through computerisation and automation
@@ -360,11 +360,11 @@ as are regions that have historically associated with the mining industry. Jobs
 in the professions, in technical and creative industries, and in personal
 service areas (health for example) are least susceptible to automation. The
 report can be found &lt;a href="http://adminpanel.ceda.com.au/FOLDERS/Service/Files/Documents/26792~Futureworkforce_June2015.pdf"&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;div style="clear: both;"&gt;&lt;/div&gt;</content><category term="Projects"></category></entry><entry><title>Extended and Unscented Kitchen Sinks</title><link href="http://dsteinberg.github.io/extended-unscented-kitchen-sinks.html" rel="alternate"></link><published>2015-01-01T00:00:00+11:00</published><updated>2015-01-01T00:00:00+11:00</updated><author><name>Dan Steinberg</name></author><id>tag:dsteinberg.github.io,2015-01-01:/extended-unscented-kitchen-sinks.html</id><summary type="html">&lt;h3&gt;Extended and Unscented Kitchen&amp;nbsp;Sinks&lt;/h3&gt;
+&lt;div style="clear: both;"&gt;&lt;/div&gt;</content><category term="Projects"></category></entry><entry><title>Extended and Unscented Kitchen Sinks</title><link href="https://dsteinberg.github.io/extended-unscented-kitchen-sinks.html" rel="alternate"></link><published>2015-01-01T00:00:00+11:00</published><updated>2015-01-01T00:00:00+11:00</updated><author><name>Dan Steinberg</name></author><id>tag:dsteinberg.github.io,2015-01-01:/extended-unscented-kitchen-sinks.html</id><summary type="html">&lt;h3&gt;Extended and Unscented Kitchen&amp;nbsp;Sinks&lt;/h3&gt;
 &lt;div class="col-sm-8 col-md-8" style="margin-left: -15px;"&gt;
 &lt;div class="panel panel-default"&gt;
     &lt;div class="panel-body"&gt;
-        &lt;img src="http://dsteinberg.github.io/images/EKS-seismic.png" alt="EKS seismic inversion"&gt;
+        &lt;img src="https://dsteinberg.github.io/images/EKS-seismic.png" alt="EKS seismic inversion"&gt;
     &lt;/div&gt;
     &lt;div class="panel-footer"&gt;
         Example results of the extended kitchen sinks (&lt;span class="caps"&gt;EKS&lt;/span&gt;) algorithm on an
@@ -375,7 +375,7 @@ report can be found &lt;a href="http://adminpanel.ceda.com.au/FOLDERS/Service/Fi
 &lt;div class="col-sm-8 col-md-8" style="margin-left: -15px;"&gt;
 &lt;div class="panel panel-default"&gt;
     &lt;div class="panel-body"&gt;
-        &lt;img src="http://dsteinberg.github.io/images/EKS-seismic.png" alt="EKS seismic inversion"&gt;
+        &lt;img src="https://dsteinberg.github.io/images/EKS-seismic.png" alt="EKS seismic inversion"&gt;
     &lt;/div&gt;
     &lt;div class="panel-footer"&gt;
         Example results of the extended kitchen sinks (&lt;span class="caps"&gt;EKS&lt;/span&gt;) algorithm on an
@@ -397,11 +397,11 @@ basis function) approximation for scaling kernel machines. This approximation
 allows us to straightforwardly enable the &lt;span class="caps"&gt;EKS&lt;/span&gt; and &lt;span class="caps"&gt;UKS&lt;/span&gt; to work in multiple
 output scenarios as well, enabling these algorithms to be useful for a wide
 variety of complex nonlinear inversion problems, such as geophysical&amp;nbsp;inversions.&lt;/p&gt;
-&lt;div style="clear: both;"&gt;&lt;/div&gt;</content><category term="Projects"></category></entry><entry><title>Nonparametric Bayesian Inverse Problems</title><link href="http://dsteinberg.github.io/bayesian-inverse-problems.html" rel="alternate"></link><published>2014-01-01T00:00:00+11:00</published><updated>2014-01-01T00:00:00+11:00</updated><author><name>Dan Steinberg</name></author><id>tag:dsteinberg.github.io,2014-01-01:/bayesian-inverse-problems.html</id><summary type="html">&lt;h3&gt;Nonparametric Bayesian Inverse&amp;nbsp;Problems&lt;/h3&gt;
+&lt;div style="clear: both;"&gt;&lt;/div&gt;</content><category term="Projects"></category></entry><entry><title>Nonparametric Bayesian Inverse Problems</title><link href="https://dsteinberg.github.io/bayesian-inverse-problems.html" rel="alternate"></link><published>2014-01-01T00:00:00+11:00</published><updated>2014-01-01T00:00:00+11:00</updated><author><name>Dan Steinberg</name></author><id>tag:dsteinberg.github.io,2014-01-01:/bayesian-inverse-problems.html</id><summary type="html">&lt;h3&gt;Nonparametric Bayesian Inverse&amp;nbsp;Problems&lt;/h3&gt;
 &lt;div class="col-sm-6 col-md-6" style="margin-left: -15px;"&gt;
 &lt;div class="panel panel-default"&gt;
     &lt;div class="panel-body"&gt;
-        &lt;img src="http://dsteinberg.github.io/images/ugp-sign.png" alt="UGP signum test"&gt;
+        &lt;img src="https://dsteinberg.github.io/images/ugp-sign.png" alt="UGP signum test"&gt;
     &lt;/div&gt;
     &lt;div class="panel-footer"&gt;
         Example of learning the unscented Gaussian process (&lt;span class="caps"&gt;UGP&lt;/span&gt;) with a
@@ -412,7 +412,7 @@ variety of complex nonlinear inversion problems, such as geophysical&amp;nbsp;in
 &lt;div class="col-sm-6 col-md-6" style="margin-left: -15px;"&gt;
 &lt;div class="panel panel-default"&gt;
     &lt;div class="panel-body"&gt;
-        &lt;img src="http://dsteinberg.github.io/images/ugp-sign.png" alt="UGP signum test"&gt;
+        &lt;img src="https://dsteinberg.github.io/images/ugp-sign.png" alt="UGP signum test"&gt;
     &lt;/div&gt;
     &lt;div class="panel-footer"&gt;
         Example of learning the unscented Gaussian process (&lt;span class="caps"&gt;UGP&lt;/span&gt;) with a
@@ -456,12 +456,12 @@ performance of our algorithms on a number of synthetic inversion problems and a
 binary classification dataset. See our &lt;a href="http://papers.nips.cc/paper/5455-extended-and-unscented-gaussian-processes"&gt;&lt;span class="caps"&gt;NIPS&lt;/span&gt; &lt;em&gt;spotlight&lt;/em&gt;
 paper&lt;/a&gt;
 for more&amp;nbsp;details.&lt;/p&gt;
-&lt;div style="clear: both"&gt;&lt;/div&gt;</content><category term="Projects"></category></entry><entry><title>Unsupervised Scene “Understanding”</title><link href="http://dsteinberg.github.io/scene-understanding.html" rel="alternate"></link><published>2013-01-01T00:00:00+11:00</published><updated>2013-01-01T00:00:00+11:00</updated><author><name>Dan Steinberg</name></author><id>tag:dsteinberg.github.io,2013-01-01:/scene-understanding.html</id><summary type="html">&lt;h3&gt;Unsupervised Scene&amp;nbsp;&amp;#8220;Understanding&amp;#8221;&lt;/h3&gt;
+&lt;div style="clear: both"&gt;&lt;/div&gt;</content><category term="Projects"></category></entry><entry><title>Unsupervised Scene “Understanding”</title><link href="https://dsteinberg.github.io/scene-understanding.html" rel="alternate"></link><published>2013-01-01T00:00:00+11:00</published><updated>2013-01-01T00:00:00+11:00</updated><author><name>Dan Steinberg</name></author><id>tag:dsteinberg.github.io,2013-01-01:/scene-understanding.html</id><summary type="html">&lt;h3&gt;Unsupervised Scene&amp;nbsp;&amp;#8220;Understanding&amp;#8221;&lt;/h3&gt;
 &lt;div&gt;
     &lt;div class="col-sm-4 col-md-3" style="margin-left: -15px;"&gt;
     &lt;div class="panel panel-default"&gt;
         &lt;div class="panel-body"&gt;
-            &lt;img src="http://dsteinberg.github.io/images/MSRC_im_ex.jpg" alt="MSRC clusters" /&gt;
+            &lt;img src="https://dsteinberg.github.io/images/MSRC_im_ex.jpg" alt="MSRC clusters" /&gt;
         &lt;/div&gt;
         &lt;div class="panel-footer"&gt;
             Sample images belonging to image clusters found by an algorithm
@@ -473,7 +473,7 @@ for more&amp;nbsp;details.&lt;/p&gt;
     &lt;div class="col-sm-4 col-md-3" style="margin-left: -15px; margin-right: 0px;"&gt;
     &lt;div class="panel panel-default"&gt;
         &lt;div class="panel-body"&gt;
-            &lt;img src="http://dsteinberg.github.io/images/MSRC_seg_ex.jpg" alt="MSRC segments" /&gt;
+            &lt;img src="https://dsteinberg.github.io/images/MSRC_seg_ex.jpg" alt="MSRC segments" /&gt;
         &lt;/div&gt;
         &lt;div class="panel-footer"&gt;
             The corresponding learned segment clusters to the images in the
@@ -482,7 +482,7 @@ for more&amp;nbsp;details.&lt;/p&gt;
     &lt;div class="col-sm-4 col-md-3" style="margin-left: -15px;"&gt;
     &lt;div class="panel panel-default"&gt;
         &lt;div class="panel-body"&gt;
-            &lt;img src="http://dsteinberg.github.io/images/MSRC_im_ex.jpg" alt="MSRC clusters" /&gt;
+            &lt;img src="https://dsteinberg.github.io/images/MSRC_im_ex.jpg" alt="MSRC clusters" /&gt;
         &lt;/div&gt;
         &lt;div class="panel-footer"&gt;
             Sample images belonging to image clusters found by an algorithm
@@ -494,7 +494,7 @@ for more&amp;nbsp;details.&lt;/p&gt;
     &lt;div class="col-sm-4 col-md-3" style="margin-left: -15px; margin-right: 0px;"&gt;
     &lt;div class="panel panel-default"&gt;
         &lt;div class="panel-body"&gt;
-            &lt;img src="http://dsteinberg.github.io/images/MSRC_seg_ex.jpg" alt="MSRC segments" /&gt;
+            &lt;img src="https://dsteinberg.github.io/images/MSRC_seg_ex.jpg" alt="MSRC segments" /&gt;
         &lt;/div&gt;
         &lt;div class="panel-footer"&gt;
             The corresponding learned segment clusters to the images in the
@@ -529,10 +529,10 @@ unsupervised algorithms for segment and scene clustering. This is because of
 how they model context. These algorithms were even found to be competitive with
 state of the art supervised and semi-supervised approaches to scene
 understanding, as well as being scalable to larger datasets. See
-my &lt;a href="http://dsteinberg.github.io/docs/Steinberg_ICCV2013_MCM.pdf"&gt;&lt;span class="caps"&gt;ICCV&lt;/span&gt; paper&lt;/a&gt;,
-&lt;a href="http://dsteinberg.github.io/docs/CVIU_scene.pdf"&gt;&lt;span class="caps"&gt;CVIU&lt;/span&gt; article&lt;/a&gt; and my &lt;a href="http://dsteinberg.github.io/docs/Thesis.pdf"&gt;thesis (ch. 5 &lt;span class="amp"&gt;&amp;amp;&lt;/span&gt;
+my &lt;a href="https://dsteinberg.github.io/docs/Steinberg_ICCV2013_MCM.pdf"&gt;&lt;span class="caps"&gt;ICCV&lt;/span&gt; paper&lt;/a&gt;,
+&lt;a href="https://dsteinberg.github.io/docs/CVIU_scene.pdf"&gt;&lt;span class="caps"&gt;CVIU&lt;/span&gt; article&lt;/a&gt; and my &lt;a href="https://dsteinberg.github.io/docs/Thesis.pdf"&gt;thesis (ch. 5 &lt;span class="amp"&gt;&amp;amp;&lt;/span&gt;
 6)&lt;/a&gt; for more&amp;nbsp;information.&lt;/p&gt;
-&lt;div style="clear: both"&gt;&lt;/div&gt;</content><category term="Projects"></category></entry><entry><title>Clustering Images Over Many Datasets</title><link href="http://dsteinberg.github.io/clustering-images-albums.html" rel="alternate"></link><published>2012-01-01T00:00:00+11:00</published><updated>2012-01-01T00:00:00+11:00</updated><author><name>Dan Steinberg</name></author><id>tag:dsteinberg.github.io,2012-01-01:/clustering-images-albums.html</id><summary type="html">&lt;h3&gt;Clustering Images Over Many&amp;nbsp;Datasets&lt;/h3&gt;
+&lt;div style="clear: both"&gt;&lt;/div&gt;</content><category term="Projects"></category></entry><entry><title>Clustering Images Over Many Datasets</title><link href="https://dsteinberg.github.io/clustering-images-albums.html" rel="alternate"></link><published>2012-01-01T00:00:00+11:00</published><updated>2012-01-01T00:00:00+11:00</updated><author><name>Dan Steinberg</name></author><id>tag:dsteinberg.github.io,2012-01-01:/clustering-images-albums.html</id><summary type="html">&lt;h3&gt;Clustering Images Over Many&amp;nbsp;Datasets&lt;/h3&gt;
 &lt;p&gt;Large image collections are frequently partitioned into distinct but related
 groups, such as photo albums from distinct environments that contain similar
 scenes. For example, a hiking holiday album may contain many images of forests
@@ -549,10 +549,10 @@ proportion of clusters (mixture-weights) specific to each group, thereby
 modelling the context of the group. By doing this, the algorithm is actually
 better at finding clusters, and is often faster when dealing with large
 datasets, than regular mixture model based approaches. See my
-&lt;a href="http://dsteinberg.github.io/docs/Thesis.pdf"&gt;thesis (ch.4)&lt;/a&gt; for more&amp;nbsp;information.&lt;/p&gt;
+&lt;a href="https://dsteinberg.github.io/docs/Thesis.pdf"&gt;thesis (ch.4)&lt;/a&gt; for more&amp;nbsp;information.&lt;/p&gt;
 &lt;div class="panel panel-default"&gt;
     &lt;div class="panel-body"&gt;
-        &lt;img src="http://dsteinberg.github.io/images/halbums_gmc_sub.jpg" alt="Album clusters"&gt;
+        &lt;img src="https://dsteinberg.github.io/images/halbums_gmc_sub.jpg" alt="Album clusters"&gt;
     &lt;/div&gt;
     &lt;div class="panel-footer"&gt;
         Here 10,300 images from 12 holiday photo albums are clustered. Shown
@@ -563,7 +563,7 @@ datasets, than regular mixture model based approaches. See my
         as regular mixture models. This took less than a minute to run. Again,
         these are entirely unsupervised algorithms
     &lt;/div&gt;
-&lt;/div&gt;</content><category term="Projects"></category></entry><entry><title>Clustering Images of the Seafloor</title><link href="http://dsteinberg.github.io/clustering-seafloor.html" rel="alternate"></link><published>2011-01-01T00:00:00+11:00</published><updated>2011-01-01T00:00:00+11:00</updated><author><name>Dan Steinberg</name></author><id>tag:dsteinberg.github.io,2011-01-01:/clustering-seafloor.html</id><summary type="html">&lt;h3&gt;Clustering Images of the&amp;nbsp;Seafloor&lt;/h3&gt;
+&lt;/div&gt;</content><category term="Projects"></category></entry><entry><title>Clustering Images of the Seafloor</title><link href="https://dsteinberg.github.io/clustering-seafloor.html" rel="alternate"></link><published>2011-01-01T00:00:00+11:00</published><updated>2011-01-01T00:00:00+11:00</updated><author><name>Dan Steinberg</name></author><id>tag:dsteinberg.github.io,2011-01-01:/clustering-seafloor.html</id><summary type="html">&lt;h3&gt;Clustering Images of the&amp;nbsp;Seafloor&lt;/h3&gt;
 &lt;p&gt;I have applied a Bayesian non-parametric algorithm, the variational Dirichlet
 process (with Gaussian clusters), to clustering large quantities of seafloor
 imagery (obtained from an autonomous underwater vehicle or &lt;span class="caps"&gt;AUV&lt;/span&gt;) in an
@@ -587,7 +587,7 @@ for more&amp;nbsp;details.&lt;/p&gt;
     &lt;div class="col-sm-4"&gt;
         &lt;div class="panel panel-default"&gt;
         &lt;div class="panel-body"&gt;
-            &lt;img src="http://dsteinberg.github.io/images/scott25_img.jpg" alt="Cluster example"&gt;
+            &lt;img src="https://dsteinberg.github.io/images/scott25_img.jpg" alt="Cluster example"&gt;
         &lt;/div&gt;
         &lt;div class="panel-footer"&gt;
             An example of images from an &lt;span class="caps"&gt;AUV&lt;/span&gt; survey that have been clustered.
@@ -603,7 +603,7 @@ for more&amp;nbsp;details.&lt;/p&gt;
     &lt;div class="col-sm-4"&gt;
         &lt;div class="panel panel-default"&gt;
         &lt;div class="panel-body"&gt;
-            &lt;img src="http://dsteinberg.github.io/images/scott25_mos.jpg" alt="Survey"&gt;
+            &lt;img src="https://dsteinberg.github.io/images/scott25_mos.jpg" alt="Survey"&gt;
         &lt;/div&gt;
         &lt;div class="panel-footer"&gt;
             Top-down mosaic of the survey.
@@ -613,7 +613,7 @@ for more&amp;nbsp;details.&lt;/p&gt;
     &lt;div class="col-sm-4"&gt;
         &lt;div class="panel panel-default"&gt;
         &lt;div class="panel-body"&gt;
-            &lt;img src="http://dsteinberg.github.io/images/scott25_xy.png" alt="Survey labels"&gt;
+            &lt;img src="https://dsteinberg.github.io/images/scott25_xy.png" alt="Survey labels"&gt;
         &lt;/div&gt;
         &lt;div class="panel-footer"&gt;
             Top-down view image locations coloured by image cluster labels.
