@@ -38,8 +38,8 @@ h3 a {
 }
 
 /* for list-group-items nested within a list-group-item, reset the bottom
-   padding of the last item, b/c the containing item has padding already 
- */
+   padding of the last item, b/c the containing item has padding already
+*/
 .list-group-item .list-group-item:last-child {
     padding-bottom: 0px;
 }
@@ -274,4 +274,17 @@ figure.floatcenter, .align-center {
 .research-body {
     flex: 1;
     min-width: 0;
+}
+
+@media (max-width: 768px) {
+    .research-entry {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .research-thumb {
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+    }
 }
