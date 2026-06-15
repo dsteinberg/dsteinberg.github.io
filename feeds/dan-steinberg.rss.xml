@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0"><channel><title>Dan Steinberg - Dan Steinberg</title><link>https://dsteinberg.github.io/</link><description></description><lastBuildDate>Thu, 01 Jan 2026 00:00:00 +1100</lastBuildDate><item><title>Causal Discovery in the Real World</title><link>https://dsteinberg.github.io/causal-discovery.html</link><description>&lt;h3&gt;Causal Discovery in the Real&amp;nbsp;World&lt;/h3&gt;
+&lt;div class="col-sm-6 col-md-6" style="margin-left: -15px;"&gt;
+&lt;div class="panel panel-default"&gt;
+    &lt;div class="panel-body"&gt;
+        &lt;img src="https://dsteinberg.github.io/images/CaPE.png" alt="CaPE flow"&gt;
+    &lt;/div&gt;
+    &lt;div class="panel-footer"&gt;
+        Causal Preference Elicitation (CaPE) flow demonstration.
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
 &lt;p&gt;Inferring causal structure from observational data is a fundamental challenge
 in science and evidence-based decision-making. Most existing methods for
 learning directed acyclic graphs (DAGs) assume that the true causal graph is
-identifiable from data — an assumption that rarely holds cleanly in practice,
-where causal …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Dan Steinberg</dc:creator><pubDate>Thu, 01 Jan 2026 00:00:00 +1100</pubDate><guid isPermaLink="false">tag:dsteinberg.github.io,2026-01-01:/causal-discovery.html</guid><category>Projects</category></item><item><title>Active Generation — Generative Models for Black Box Optimisation</title><link>https://dsteinberg.github.io/active-generation.html</link><description>&lt;h3&gt;&lt;strong&gt;Active Generation&lt;/strong&gt; - Generative models for black box&amp;nbsp;optimisation&lt;/h3&gt;
+identifiable from data — an assumption that rarely …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Dan Steinberg</dc:creator><pubDate>Thu, 01 Jan 2026 00:00:00 +1100</pubDate><guid isPermaLink="false">tag:dsteinberg.github.io,2026-01-01:/causal-discovery.html</guid><category>Projects</category></item><item><title>Active Generation — Generative Models for Black Box Optimisation</title><link>https://dsteinberg.github.io/active-generation.html</link><description>&lt;h3&gt;&lt;strong&gt;Active Generation&lt;/strong&gt; - Generative models for black box&amp;nbsp;optimisation&lt;/h3&gt;
 &lt;div class="col-sm-6 col-md-6" style="margin-left: -15px;"&gt;
 &lt;div class="panel panel-default"&gt;
     &lt;div class="panel-body"&gt;

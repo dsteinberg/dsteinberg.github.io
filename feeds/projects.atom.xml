@@ -1,10 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Dan Steinberg - Projects</title><link href="https://dsteinberg.github.io/" rel="alternate"></link><link href="https://dsteinberg.github.io/feeds/projects.atom.xml" rel="self"></link><id>https://dsteinberg.github.io/</id><updated>2026-01-01T00:00:00+11:00</updated><entry><title>Causal Discovery in the Real World</title><link href="https://dsteinberg.github.io/causal-discovery.html" rel="alternate"></link><published>2026-01-01T00:00:00+11:00</published><updated>2026-01-01T00:00:00+11:00</updated><author><name>Dan Steinberg</name></author><id>tag:dsteinberg.github.io,2026-01-01:/causal-discovery.html</id><summary type="html">&lt;h3&gt;Causal Discovery in the Real&amp;nbsp;World&lt;/h3&gt;
+&lt;div class="col-sm-6 col-md-6" style="margin-left: -15px;"&gt;
+&lt;div class="panel panel-default"&gt;
+    &lt;div class="panel-body"&gt;
+        &lt;img src="https://dsteinberg.github.io/images/CaPE.png" alt="CaPE flow"&gt;
+    &lt;/div&gt;
+    &lt;div class="panel-footer"&gt;
+        Causal Preference Elicitation (CaPE) flow demonstration.
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
 &lt;p&gt;Inferring causal structure from observational data is a fundamental challenge
 in science and evidence-based decision-making. Most existing methods for
 learning directed acyclic graphs (DAGs) assume that the true causal graph is
-identifiable from data — an assumption that rarely holds cleanly in practice,
-where causal …&lt;/p&gt;</summary><content type="html">&lt;h3&gt;Causal Discovery in the Real&amp;nbsp;World&lt;/h3&gt;
+identifiable from data — an assumption that rarely …&lt;/p&gt;</summary><content type="html">&lt;h3&gt;Causal Discovery in the Real&amp;nbsp;World&lt;/h3&gt;
+&lt;div class="col-sm-6 col-md-6" style="margin-left: -15px;"&gt;
+&lt;div class="panel panel-default"&gt;
+    &lt;div class="panel-body"&gt;
+        &lt;img src="https://dsteinberg.github.io/images/CaPE.png" alt="CaPE flow"&gt;
+    &lt;/div&gt;
+    &lt;div class="panel-footer"&gt;
+        Causal Preference Elicitation (CaPE) flow demonstration.
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
 &lt;p&gt;Inferring causal structure from observational data is a fundamental challenge
 in science and evidence-based decision-making. Most existing methods for
 learning directed acyclic graphs (DAGs) assume that the true causal graph is
