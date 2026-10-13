@@ -122,7 +122,8 @@ graph. A three-way likelihood models expert judgments about edge presence and
 directionality, with particle-based inference and an expected information gain
 criterion selecting the most informative queries. The result is faster
 convergence to the true causal structure and better recovery of causal effects
-under a limited query budget. CaPE was accepted at <span class="caps">ICML</span>&nbsp;2026.</p>
+under a limited query budget. CaPE was accepted at <span class="caps">ICML</span> 2026, and the code is
+available on <a href="https://github.com/csiro-funml/CaPE">GitHub</a>.</p>
 <p><strong><a href="https://arxiv.org/abs/2605.07204">Arrow: A Foundation Model for Causal Discovery</a></strong>
 takes a complementary approach: rather than requiring task-specific training or
 expert elicitation, Arrow is a transformer-based foundation model trained on
@@ -130,7 +131,9 @@ synthetic datasets with diverse known causal structures. At inference time it
 performs zero-shot causal discovery on new tabular datasets — no fine-tuning
 required. Arrow uses <span class="caps">DAG</span> factorization and skeleton-order decomposition to
 predict graph structure, achieving performance comparable to or better than
-existing methods at a fraction of the computational&nbsp;cost.</p>
+existing methods at a fraction of the computational cost. The code is on
+<a href="https://github.com/ryan-thompson/arrowfm">GitHub</a> and the pretrained weights
+are on <a href="https://huggingface.co/ryan-thompson/arrowfm-base">Hugging Face</a>.</p>
 <p>Together, these works push causal discovery toward practical deployment: CaPE
 by making expert knowledge tractably useful, and Arrow by eliminating the
 computational barrier to applying strong causal priors on new&nbsp;problems.</p>

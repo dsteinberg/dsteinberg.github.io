@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en"
+>
+<head>
+    <title>Prior Fitted Networks — Understanding and Applying Tabular Foundation Models - Dan Steinberg</title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link href="https://dsteinberg.github.io/images/favicon.ico" rel="icon">
+
+<link rel="canonical" href="https://dsteinberg.github.io/tabular-foundation-models.html">
+
+        <meta name="author" content="Dan Steinberg" />
+        <meta name="description" content="Prior Fitted Networks - Understanding and applying tabular foundation models In-context learners (TabPFN3, TabICL) versus supervised baselines as the support-set size grows: mean Spearman correlation (higher is better) and mean MSE (lower is better). Prior fitted networks (PFNs) such as TabPFN and TabICL are transformers that learn in context: they are …" />
+
+
+
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://dsteinberg.github.io/theme/css/bootstrap.cyborg.min.css" type="text/css"/>
+    <link href="https://dsteinberg.github.io/theme/css/font-awesome.css" rel="stylesheet">
+
+    <link href="https://dsteinberg.github.io/theme/css/pygments/native.css" rel="stylesheet">
+        <link href="https://dsteinberg.github.io/theme/css/typogrify.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://dsteinberg.github.io/theme/css/style.css" type="text/css"/>
+    <script src="https://dsteinberg.github.io/theme/js/jquery.min.js"></script>
+
+        <link href="https://dsteinberg.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
+              title="Dan Steinberg ATOM Feed"/>
+    
+    <!-- Google Analytics (best in HEAD) -->
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,300;1,8..60,400&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="https://dsteinberg.github.io/" class="navbar-brand">
+Dan Steinberg            </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                         <li><a href="https://dsteinberg.github.io/index.html">
+                             About
+                          </a></li>
+                         <li><a href="https://dsteinberg.github.io/pages/publications.html">
+                             Publications
+                          </a></li>
+                         <li><a href="https://dsteinberg.github.io/pages/research-projects.html">
+                             Research +&nbsp;Projects
+                          </a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="https://dsteinberg.github.io/archives.html"><i class="fa fa-th-list"></i><span class="icon-label">Archives</span></a></li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</div> <!-- /.navbar -->
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-8 col-md-9">
+
+    <section id="content">
+        <article>
+            <header class="page-header">
+                <h1>Prior Fitted Networks — Understanding and Applying Tabular Foundation&nbsp;Models</h1>
+            </header>
+            <div class="entry-content">
+                <div class="panel">
+                    <div class="panel-body">
+<footer class="post-info">
+    <span class="label label-default">Date</span>
+    <span class="published">
+        <i class="fa fa-calendar"></i><time datetime="2026-09-01T00:00:00+10:00"> Tue 01 September 2026</time>
+    </span>
+
+
+
+    
+</footer><!-- /.post-info -->                    </div>
+                </div>
+                <h3><strong>Prior Fitted Networks</strong> - Understanding and applying tabular foundation&nbsp;models</h3>
+<div class="col-sm-6 col-md-6" style="margin-left: -15px;">
+<div class="panel panel-default">
+    <div class="panel-body">
+        <img src="https://dsteinberg.github.io/images/pfn_support_size.png" alt="In-context learners versus baselines by support-set size">
+    </div>
+    <div class="panel-footer">
+        In-context learners (TabPFN3, TabICL) versus supervised baselines as
+        the support-set size grows: mean Spearman correlation (higher is
+        better) and mean <span class="caps">MSE</span> (lower is better).
+    </div>
+</div>
+</div>
+
+<p>Prior fitted networks (PFNs) such as TabPFN and TabICL are transformers that
+learn in context: they are pretrained on millions of synthetic tables drawn
+from a prior over data-generating processes, and then make predictions on a new
+dataset in a single forward pass, with no task-specific training. This makes
+them attractive wherever labelled data is scarce, and raises two questions that
+our work addresses: what does the synthetic prior actually teach these models,
+and where do they&nbsp;transfer?</p>
+<p><strong><a href="https://arxiv.org/abs/2609.06912">From Synthetic Priors to Model Behavior: Structural Coverage in Tabular
+Foundation Models</a></strong> (to appear at <span class="caps">ATTRIB</span>, the
+3rd Workshop on Attributing Model Behavior at Scale, NeurIPS 2026) studies how well synthetic pretraining priors
+support the tasks tabular foundation models are evaluated on. We reconstruct
+the synthetic generators of four models and describe the tasks they produce,
+alongside datasets from two common benchmarks, using shared structural
+descriptors. Measuring structural coverage and density in this space, we find
+large differences between priors, and that stronger support for benchmark tasks
+is generally associated with better model performance — making structural
+coverage a useful diagnostic for synthetic&nbsp;priors.</p>
+<p><strong><a href="https://arxiv.org/abs/2606.31126">Can Tabular In-Context Learners Generalize to Biomolecular Property
+Prediction?</a></strong> (to appear at the Asian
+Conference on Machine Learning, Melbourne) asks whether models pretrained on
+synthetic tables from random causal graphs can predict protein and molecular
+properties from very few labels. Paired with strong pretrained representations
+such as <span class="caps">ESM</span> Cambrian, they are competitive with or better than the
+state of the art on ProteinGym and outperform task-specific regressors on an
+esterase catalytic activity dataset. On small-molecule tasks results are
+mixed, and the choice of representation matters&nbsp;most.</p>
+<div style="clear: both;"></div>
+            </div>
+            <!-- /.entry-content -->
+        </article>
+    </section>
+
+        </div>
+        <div class="col-sm-4 col-md-3 side-content">
+            <div id="aboutme" class="entry-content">
+<p>
+<img width="100%" class="img-rounded floatcenter" src="../images/profile_photo.jpg"/>
+</p>
+<p>
+    <span style="unicode-bidi:bidi-override;direction:rtl;"></span>
+</p>
+            </div>
+            <div id="sidebar"> 
+                <hr style="margin-bottom: 0px;">
+
+<aside>
+    <section>
+        <ul class="list-group list-group-flush">
+                <li class="list-group-item"><a href="https://github.com/dsteinberg"><i class="fab fa-github fa-lg"></i> Github</a></li>
+                <li class="list-group-item"><a href="http://lnkd.in/mptmxq"><i class="fab fa-linkedin fa-lg"></i> Linkedin</a></li>
+
+
+
+    <li class="list-group-item">
+        <a href="http://scholar.google.com.au/citations?user=w0oqSe8AAAAJ&hl=en" target="_blank">
+            <i class="fas fa-user-graduate fa-lg"></i> Scholar
+        </a>
+    </li>
+    <li class="list-group-item">
+        <a href="https://people.csiro.au/S/D/dan-steinberg" target="_blank">
+            <i class="fas fa-university fa-lg"></i> CSIRO
+        </a>
+    </li>
+    <li class="list-group-item">
+        <a href="https://orcid.org/0000-0003-1887-5115" target="_blank">
+            <i class="fab fa-orcid fa-lg"></i> ORCID
+        </a>
+    </li>
+
+        </ul>
+    </section>
+</aside>            </div>
+        </div>
+    </div>
+</div>
+<footer>
+   <div class="container">
+      <hr>
+      <div class="row">
+         <div class="col-xs-10">&copy; 2026 Dan Steinberg
+            &middot; Powered by <a href="https://github.com/DandyDev/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
+            <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
+            <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>         </div>
+         <div class="col-xs-2"><p class="pull-right"><a href="#"><i class="fa fa-arrow-up"></i></a></p></div>
+      </div>
+   </div>
+</footer>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="https://dsteinberg.github.io/theme/js/bootstrap.min.js"></script>
+
+<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+<script src="https://dsteinberg.github.io/theme/js/respond.min.js"></script>
+
+
+</body>
+</html>

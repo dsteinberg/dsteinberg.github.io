@@ -1,5 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Dan Steinberg</title><link href="https://dsteinberg.github.io/" rel="alternate"></link><link href="https://dsteinberg.github.io/feeds/all.atom.xml" rel="self"></link><id>https://dsteinberg.github.io/</id><updated>2026-01-01T00:00:00+11:00</updated><entry><title>Causal Discovery in the Real World</title><link href="https://dsteinberg.github.io/causal-discovery.html" rel="alternate"></link><published>2026-01-01T00:00:00+11:00</published><updated>2026-01-01T00:00:00+11:00</updated><author><name>Dan Steinberg</name></author><id>tag:dsteinberg.github.io,2026-01-01:/causal-discovery.html</id><summary type="html">&lt;h3&gt;Causal Discovery in the Real&amp;nbsp;World&lt;/h3&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Dan Steinberg</title><link href="https://dsteinberg.github.io/" rel="alternate"></link><link href="https://dsteinberg.github.io/feeds/all.atom.xml" rel="self"></link><id>https://dsteinberg.github.io/</id><updated>2026-09-01T00:00:00+10:00</updated><entry><title>Prior Fitted Networks — Understanding and Applying Tabular Foundation Models</title><link href="https://dsteinberg.github.io/tabular-foundation-models.html" rel="alternate"></link><published>2026-09-01T00:00:00+10:00</published><updated>2026-09-01T00:00:00+10:00</updated><author><name>Dan Steinberg</name></author><id>tag:dsteinberg.github.io,2026-09-01:/tabular-foundation-models.html</id><summary type="html">&lt;h3&gt;&lt;strong&gt;Prior Fitted Networks&lt;/strong&gt; - Understanding and applying tabular foundation&amp;nbsp;models&lt;/h3&gt;
+&lt;div class="col-sm-6 col-md-6" style="margin-left: -15px;"&gt;
+&lt;div class="panel panel-default"&gt;
+    &lt;div class="panel-body"&gt;
+        &lt;img src="https://dsteinberg.github.io/images/pfn_support_size.png" alt="In-context learners versus baselines by support-set size"&gt;
+    &lt;/div&gt;
+    &lt;div class="panel-footer"&gt;
+        In-context learners (TabPFN3, TabICL) versus supervised baselines as
+        the support-set size grows: mean Spearman correlation (higher is
+        better) and mean &lt;span class="caps"&gt;MSE&lt;/span&gt; (lower is better).
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Prior fitted networks (PFNs) such as TabPFN and TabICL are transformers that
+learn in context: they are …&lt;/p&gt;</summary><content type="html">&lt;h3&gt;&lt;strong&gt;Prior Fitted Networks&lt;/strong&gt; - Understanding and applying tabular foundation&amp;nbsp;models&lt;/h3&gt;
+&lt;div class="col-sm-6 col-md-6" style="margin-left: -15px;"&gt;
+&lt;div class="panel panel-default"&gt;
+    &lt;div class="panel-body"&gt;
+        &lt;img src="https://dsteinberg.github.io/images/pfn_support_size.png" alt="In-context learners versus baselines by support-set size"&gt;
+    &lt;/div&gt;
+    &lt;div class="panel-footer"&gt;
+        In-context learners (TabPFN3, TabICL) versus supervised baselines as
+        the support-set size grows: mean Spearman correlation (higher is
+        better) and mean &lt;span class="caps"&gt;MSE&lt;/span&gt; (lower is better).
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Prior fitted networks (PFNs) such as TabPFN and TabICL are transformers that
+learn in context: they are pretrained on millions of synthetic tables drawn
+from a prior over data-generating processes, and then make predictions on a new
+dataset in a single forward pass, with no task-specific training. This makes
+them attractive wherever labelled data is scarce, and raises two questions that
+our work addresses: what does the synthetic prior actually teach these models,
+and where do they&amp;nbsp;transfer?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="https://arxiv.org/abs/2609.06912"&gt;From Synthetic Priors to Model Behavior: Structural Coverage in Tabular
+Foundation Models&lt;/a&gt;&lt;/strong&gt; (to appear at &lt;span class="caps"&gt;ATTRIB&lt;/span&gt;, the
+3rd Workshop on Attributing Model Behavior at Scale, NeurIPS 2026) studies how well synthetic pretraining priors
+support the tasks tabular foundation models are evaluated on. We reconstruct
+the synthetic generators of four models and describe the tasks they produce,
+alongside datasets from two common benchmarks, using shared structural
+descriptors. Measuring structural coverage and density in this space, we find
+large differences between priors, and that stronger support for benchmark tasks
+is generally associated with better model performance — making structural
+coverage a useful diagnostic for synthetic&amp;nbsp;priors.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="https://arxiv.org/abs/2606.31126"&gt;Can Tabular In-Context Learners Generalize to Biomolecular Property
+Prediction?&lt;/a&gt;&lt;/strong&gt; (to appear at the Asian
+Conference on Machine Learning, Melbourne) asks whether models pretrained on
+synthetic tables from random causal graphs can predict protein and molecular
+properties from very few labels. Paired with strong pretrained representations
+such as &lt;span class="caps"&gt;ESM&lt;/span&gt; Cambrian, they are competitive with or better than the
+state of the art on ProteinGym and outperform task-specific regressors on an
+esterase catalytic activity dataset. On small-molecule tasks results are
+mixed, and the choice of representation matters&amp;nbsp;most.&lt;/p&gt;
+&lt;div style="clear: both;"&gt;&lt;/div&gt;</content><category term="Projects"></category></entry><entry><title>Causal Discovery in the Real World</title><link href="https://dsteinberg.github.io/causal-discovery.html" rel="alternate"></link><published>2026-01-01T00:00:00+11:00</published><updated>2026-01-01T00:00:00+11:00</updated><author><name>Dan Steinberg</name></author><id>tag:dsteinberg.github.io,2026-01-01:/causal-discovery.html</id><summary type="html">&lt;h3&gt;Causal Discovery in the Real&amp;nbsp;World&lt;/h3&gt;
 &lt;div class="col-sm-6 col-md-6" style="margin-left: -15px;"&gt;
 &lt;div class="panel panel-default"&gt;
     &lt;div class="panel-body"&gt;
@@ -42,7 +97,8 @@ graph. A three-way likelihood models expert judgments about edge presence and
 directionality, with particle-based inference and an expected information gain
 criterion selecting the most informative queries. The result is faster
 convergence to the true causal structure and better recovery of causal effects
-under a limited query budget. CaPE was accepted at &lt;span class="caps"&gt;ICML&lt;/span&gt;&amp;nbsp;2026.&lt;/p&gt;
+under a limited query budget. CaPE was accepted at &lt;span class="caps"&gt;ICML&lt;/span&gt; 2026, and the code is
+available on &lt;a href="https://github.com/csiro-funml/CaPE"&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;a href="https://arxiv.org/abs/2605.07204"&gt;Arrow: A Foundation Model for Causal Discovery&lt;/a&gt;&lt;/strong&gt;
 takes a complementary approach: rather than requiring task-specific training or
 expert elicitation, Arrow is a transformer-based foundation model trained on
@@ -50,7 +106,9 @@ synthetic datasets with diverse known causal structures. At inference time it
 performs zero-shot causal discovery on new tabular datasets — no fine-tuning
 required. Arrow uses &lt;span class="caps"&gt;DAG&lt;/span&gt; factorization and skeleton-order decomposition to
 predict graph structure, achieving performance comparable to or better than
-existing methods at a fraction of the computational&amp;nbsp;cost.&lt;/p&gt;
+existing methods at a fraction of the computational cost. The code is on
+&lt;a href="https://github.com/ryan-thompson/arrowfm"&gt;GitHub&lt;/a&gt; and the pretrained weights
+are on &lt;a href="https://huggingface.co/ryan-thompson/arrowfm-base"&gt;Hugging Face&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Together, these works push causal discovery toward practical deployment: CaPE
 by making expert knowledge tractably useful, and Arrow by eliminating the
 computational barrier to applying strong causal priors on new&amp;nbsp;problems.&lt;/p&gt;</content><category term="Projects"></category></entry><entry><title>Active Generation — Generative Models for Black Box Optimisation</title><link href="https://dsteinberg.github.io/active-generation.html" rel="alternate"></link><published>2024-01-01T00:00:00+11:00</published><updated>2024-01-01T00:00:00+11:00</updated><author><name>Dan Steinberg</name></author><id>tag:dsteinberg.github.io,2024-01-01:/active-generation.html</id><summary type="html">&lt;h3&gt;&lt;strong&gt;Active Generation&lt;/strong&gt; - Generative models for black box&amp;nbsp;optimisation&lt;/h3&gt;
@@ -98,7 +156,11 @@ formal guarantees. Software for &lt;span class="caps"&gt;VSD&lt;/span&gt; can be
 for multi-objective optimisation problems in &lt;a href="https://arxiv.org/abs/2510.21052"&gt;Amortized Active Generation of
 Pareto Sets&lt;/a&gt;, and then to reward model free
 settings in &lt;a href="https://arxiv.org/abs/2510.25240"&gt;Generative Bayesian Optimization: Generative Models as Acquisition
-Functions&lt;/a&gt;. We have also applied these methods
+Functions&lt;/a&gt;. In &lt;a href="https://arxiv.org/abs/2603.00877"&gt;Variational Active Flow
+Matching&lt;/a&gt; (to appear at NeurIPS 2026) we show
+how to use discrete flow matching models as the search distribution, using
+forward- and reverse-&lt;span class="caps"&gt;KL&lt;/span&gt; variational objectives to steer them towards
+high-fitness designs. We have also applied these methods
 to &lt;a href="https://www.biorxiv.org/content/10.1101/2025.11.02.685536v2.abstract"&gt;actual protein engineering tasks&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;We also investigate the spectral properties of sequence (protein, &lt;span class="caps"&gt;DNA&lt;/span&gt;)
 lansdcapes in &lt;a href="https://proceedings.mlr.press/v258/zhu25c.html"&gt;Protein fitness landscape: spectral graph theory

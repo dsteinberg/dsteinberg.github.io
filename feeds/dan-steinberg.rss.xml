@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Dan Steinberg - Dan Steinberg</title><link>https://dsteinberg.github.io/</link><description></description><lastBuildDate>Thu, 01 Jan 2026 00:00:00 +1100</lastBuildDate><item><title>Causal Discovery in the Real World</title><link>https://dsteinberg.github.io/causal-discovery.html</link><description>&lt;h3&gt;Causal Discovery in the Real&amp;nbsp;World&lt;/h3&gt;
+<rss version="2.0"><channel><title>Dan Steinberg - Dan Steinberg</title><link>https://dsteinberg.github.io/</link><description></description><lastBuildDate>Tue, 01 Sep 2026 00:00:00 +1000</lastBuildDate><item><title>Prior Fitted Networks — Understanding and Applying Tabular Foundation Models</title><link>https://dsteinberg.github.io/tabular-foundation-models.html</link><description>&lt;h3&gt;&lt;strong&gt;Prior Fitted Networks&lt;/strong&gt; - Understanding and applying tabular foundation&amp;nbsp;models&lt;/h3&gt;
+&lt;div class="col-sm-6 col-md-6" style="margin-left: -15px;"&gt;
+&lt;div class="panel panel-default"&gt;
+    &lt;div class="panel-body"&gt;
+        &lt;img src="https://dsteinberg.github.io/images/pfn_support_size.png" alt="In-context learners versus baselines by support-set size"&gt;
+    &lt;/div&gt;
+    &lt;div class="panel-footer"&gt;
+        In-context learners (TabPFN3, TabICL) versus supervised baselines as
+        the support-set size grows: mean Spearman correlation (higher is
+        better) and mean &lt;span class="caps"&gt;MSE&lt;/span&gt; (lower is better).
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Prior fitted networks (PFNs) such as TabPFN and TabICL are transformers that
+learn in context: they are …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Dan Steinberg</dc:creator><pubDate>Tue, 01 Sep 2026 00:00:00 +1000</pubDate><guid isPermaLink="false">tag:dsteinberg.github.io,2026-09-01:/tabular-foundation-models.html</guid><category>Projects</category></item><item><title>Causal Discovery in the Real World</title><link>https://dsteinberg.github.io/causal-discovery.html</link><description>&lt;h3&gt;Causal Discovery in the Real&amp;nbsp;World&lt;/h3&gt;
 &lt;div class="col-sm-6 col-md-6" style="margin-left: -15px;"&gt;
 &lt;div class="panel panel-default"&gt;
     &lt;div class="panel-body"&gt;
